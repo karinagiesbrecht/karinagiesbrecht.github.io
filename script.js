@@ -196,11 +196,9 @@ function drawLevel(data, isCountryLevel) {
             if (d.institutions.length > 3) {
                 detailsHtml += `<br/><em>+${d.institutions.length - 3} more</em>`;
             }
-            detailsHtml += `<br/><br/><button class="tooltip-action-btn" onclick="openCountryModal('${d.country_code}')">View All Institutions</button>`;
-        } else if (!isCountryLevel && d.id) {
-            const alexId = d.id.split('/').pop();
-            const url = `https://openalex.org/works?page=1&filter=authorships.institutions.lineage:${UVIC_OPENALEX_ID},authorships.institutions.lineage:${alexId}`;
-            detailsHtml += `<br/><a class="tooltip-action-btn secondary" href="${url}" target="_blank">Open in OpenAlex ↗</a>`;
+            detailsHtml += `<br/><br/><em>Click to view country details</em>`;
+        } else if (!isCountryLevel) {
+            detailsHtml += `<br/><br/><em>Click to view institution details</em>`;
         }
         d3.select("#tt-details").html(detailsHtml);
 
@@ -219,11 +217,11 @@ function drawLevel(data, isCountryLevel) {
             }, 300);
         })
         .on("click", function (event, d) {
+            tooltip.classed("hidden", true);
             if (isCountryLevel) {
-                zoomToFeature(d.lon, d.lat, 4); // Zoom in
-                drawLevel(d.institutions, false);
-                backBtn.classed("hidden", false);
-                tooltip.classed("hidden", true);
+                openCountryModal(d);
+            } else {
+                openInstModal(d);
             }
         });
 }
@@ -254,34 +252,95 @@ window.addEventListener('resize', () => {
     location.reload();
 });
 
-// Modal Populator Function
-window.openCountryModal = function (countryCode) {
-    if (!globalCollaborations) return;
+// Modal View Switchers
+d3.select("#modal-back-btn").on("click", () => {
+    d3.select("#modal-body-list").classed("hidden", true);
+    d3.select("#modal-body-overview").classed("hidden", false);
+});
+
+window.showModalList = function () {
+    d3.select("#modal-body-overview").classed("hidden", true);
+    d3.select("#modal-body-list").classed("hidden", false);
+}
+
+window.doZoomRegion = function (lon, lat, countryCode) {
+    modalOverlay.classed("hidden", true);
+
+    // Find the country data again to pass to drawLevel
     const countryData = globalCollaborations.find(c => c.country_code === countryCode);
-    if (!countryData) return;
 
-    tooltip.classed("hidden", true);
+    zoomToFeature(lon, lat, 4); // Zoom in
+    drawLevel(countryData.institutions, false);
+    backBtn.classed("hidden", false);
+}
 
-    d3.select("#modal-title").text(getCountryName(countryCode));
-    d3.select("#modal-subtitle").text(`${countryData.count} total collaborations across ${countryData.institutions.length} institutions`);
+// Modal Populator Function - Country
+window.openCountryModal = function (d) {
+    // Reset view to overview
+    d3.select("#modal-body-list").classed("hidden", true);
+    d3.select("#modal-body-overview").classed("hidden", false);
 
+    d3.select("#modal-title").text(getCountryName(d.country_code));
+    d3.select("#modal-subtitle").text("Country Level Collaborations");
+
+    const topInsts = d.institutions.slice(0, 3).map(i => `<li>${i.name} (${i.count})</li>`).join("");
+    d3.select("#modal-stats").html(`
+        <strong>${d.count}</strong> total collaborations across <strong>${d.institutions.length}</strong> institutions.<br/><br/>
+        <strong>Top Institutions:</strong>
+        <ul style="margin-top: 5px; padding-left: 20px;">
+            ${topInsts}
+        </ul>
+    `);
+
+    d3.select("#modal-actions").html(`
+        <button class="modal-btn" onclick="doZoomRegion(${d.lon}, ${d.lat}, '${d.country_code}')">Zoom to Region</button>
+        <button class="modal-btn secondary" onclick="showModalList()">View Full List</button>
+    `);
+
+    // Populate List
     const tbody = d3.select("#modal-tbody");
     tbody.selectAll("tr").remove();
 
     const rows = tbody.selectAll("tr")
-        .data(countryData.institutions)
+        .data(d.institutions)
         .enter()
         .append("tr");
 
-    rows.append("td").text(d => d.name);
-    rows.append("td").style("text-align", "right").text(d => Math.round(d.count));
+    rows.append("td").text(inst => inst.name);
+    rows.append("td").style("text-align", "right").text(inst => Math.round(inst.count));
 
-    rows.append("td").style("text-align", "right").html(d => {
-        if (!d.id) return "";
-        const alexId = d.id.split('/').pop();
+    rows.append("td").style("text-align", "right").html(inst => {
+        if (!inst.id) return "";
+        const alexId = inst.id.split('/').pop();
         const url = `https://openalex.org/works?page=1&filter=authorships.institutions.lineage:${UVIC_OPENALEX_ID},authorships.institutions.lineage:${alexId}`;
         return `<a class="row-action-btn" href="${url}" target="_blank">View ↗</a>`;
     });
+
+    modalOverlay.classed("hidden", false);
+};
+
+// Modal Populator Function - Institution
+window.openInstModal = function (d) {
+    // Hide list section, just in case
+    d3.select("#modal-body-list").classed("hidden", true);
+    d3.select("#modal-body-overview").classed("hidden", false);
+
+    d3.select("#modal-title").text(d.name);
+    d3.select("#modal-subtitle").text("Institution Level Collaborations");
+
+    d3.select("#modal-stats").html(`
+        <strong>${Math.round(d.count)}</strong> total publications co-authored with the University of Victoria between 2024 and 2025.
+    `);
+
+    if (d.id) {
+        const alexId = d.id.split('/').pop();
+        const url = `https://openalex.org/works?page=1&filter=authorships.institutions.lineage:${UVIC_OPENALEX_ID},authorships.institutions.lineage:${alexId}`;
+        d3.select("#modal-actions").html(`
+            <a class="modal-btn" href="${url}" target="_blank">Open in OpenAlex ↗</a>
+        `);
+    } else {
+        d3.select("#modal-actions").html(``);
+    }
 
     modalOverlay.classed("hidden", false);
 };

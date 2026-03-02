@@ -1,13 +1,27 @@
 :root {
-    --bg-color: #0b0c10;
-    --land-color: #1f2833;
-    --border-color: #45a29e;
-    --uvic-color: #ffb800;
-    /* UVic Gold/Yellow flair */
-    --collab-color: #66fcf1;
-    /* Neon cyan for connections */
-    --text-main: #ffffff;
-    --text-muted: #c5c6c7;
+    /* UVic Light Brand Theme */
+    --bg-color: #f2f4f8;
+    /* Light grey/blue background */
+    --land-color: #e5e9f0;
+    /* Slightly darker land */
+    --border-color: #d8dee9;
+    /* Land borders */
+
+    /* UVic Brand Colors */
+    --uvic-color: #FDB813;
+    /* UVic Yellow Accent */
+    --collab-color: #0073BC;
+    /* UVic Primary Blue for arcs/nodes */
+    --text-main: #002754;
+    /* UVic Dark Blue for main text */
+    --text-muted: #57B7E7;
+    /* UVic Light Blue/Grey for muted */
+    --modal-bg: #ffffff;
+    /* White modal */
+    --btn-primary: #0073BC;
+    /* UVic Blue button */
+    --btn-hover: #002754;
+    /* UVic Dark Blue hover */
 }
 
 body,
@@ -22,25 +36,29 @@ html {
     overflow: hidden;
 }
 
+.hidden {
+    display: none !important;
+}
+
 #ui-container {
     position: absolute;
     top: 30px;
     left: 40px;
     z-index: 10;
     pointer-events: none;
-    background: rgba(11, 12, 16, 0.7);
+    background: rgba(255, 255, 255, 0.85);
     padding: 20px 30px;
     border-radius: 12px;
     backdrop-filter: blur(8px);
-    border: 1px solid rgba(102, 252, 241, 0.2);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 115, 188, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 h1 {
     margin: 0 0 5px 0;
     font-size: 24px;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 h2 {
@@ -83,22 +101,22 @@ h2 {
 #back-btn {
     margin-top: 15px;
     background: transparent;
-    color: var(--text-muted);
-    border: 1px solid rgba(197, 198, 199, 0.3);
+    color: var(--text-main);
+    border: 1px solid var(--collab-color);
     padding: 8px 12px;
     border-radius: 6px;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
     font-size: 13px;
+    font-weight: 500;
     transition: all 0.2s ease;
     display: inline-block;
     pointer-events: auto;
 }
 
 #back-btn:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--collab-color);
     color: #fff;
-    border-color: rgba(255, 255, 255, 0.5);
 }
 
 #back-btn.hidden {
@@ -109,23 +127,23 @@ h2 {
     position: absolute;
     margin-top: 30px;
     /* Offset to prevent blocking cursor */
-    background: rgba(31, 40, 51, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     border: 1px solid var(--border-color);
     padding: 12px 16px;
     border-radius: 8px;
     font-size: 13px;
-    pointer-events: auto;
-    /* make tooltip interactive */
+    pointer-events: none;
     transition: opacity 0.2s ease;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 15px rgba(0, 39, 84, 0.15);
     backdrop-filter: blur(4px);
     transform: translateY(20px);
+    width: max-content;
+    max-width: 450px;
+    /* Much wider tooltip */
 }
 
 #tooltip.hidden {
     opacity: 0;
-    pointer-events: none;
-    /* disable when hidden */
 }
 
 #tooltip strong {
@@ -165,6 +183,38 @@ h2 {
     box-shadow: none;
 }
 
+.modal-btn {
+    display: inline-block;
+    background: var(--btn-primary);
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+.modal-btn:hover {
+    background: var(--btn-hover);
+    box-shadow: 0 4px 10px rgba(0, 115, 188, 0.3);
+}
+
+.modal-btn.secondary {
+    background: transparent;
+    color: var(--btn-primary);
+    border: 1px solid var(--btn-primary);
+}
+
+.modal-btn.secondary:hover {
+    background: var(--btn-primary);
+    color: #fff;
+    box-shadow: none;
+}
+
 #map-container {
     width: 100%;
     height: 100%;
@@ -176,13 +226,14 @@ h2 {
 /* SVG Styles */
 .land {
     fill: var(--land-color);
-    stroke: rgba(255, 255, 255, 0.05);
+    stroke: var(--border-color);
     stroke-width: 0.5px;
 }
 
 .graticule {
     fill: none;
-    stroke: rgba(255, 255, 255, 0.05);
+    stroke: rgba(0, 39, 84, 0.05);
+    /* very faint dark blue */
     stroke-width: 0.5px;
 }
 
@@ -196,17 +247,17 @@ h2 {
     fill: var(--collab-color);
     opacity: 0.8;
     cursor: pointer;
-    transition: r 0.2s ease;
+    transition: r 0.2s ease, fill 0.2s ease;
 }
 
 .node:hover {
-    fill: #ffffff;
+    fill: var(--btn-hover);
     opacity: 1;
 }
 
 .uvic-node {
     fill: var(--uvic-color);
-    filter: drop-shadow(0px 0px 5px var(--uvic-color));
+    filter: drop-shadow(0px 0px 4px rgba(253, 184, 19, 0.4));
 }
 
 /* Modal Styling */
@@ -216,8 +267,8 @@ h2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(11, 12, 16, 0.85);
-    /* match bg theme */
+    background: rgba(0, 39, 84, 0.6);
+    /* Translucent dark blue */
     backdrop-filter: blur(5px);
     z-index: 100;
     display: flex;
@@ -233,18 +284,19 @@ h2 {
 }
 
 #modal-content {
-    background: #1f2833;
-    /* match land theme */
-    border: 1px solid var(--border-color);
+    background: var(--modal-bg);
+    border: 1px solid rgba(0, 115, 188, 0.2);
     border-radius: 12px;
     width: 90%;
     max-width: 600px;
-    max-height: 80vh;
+    max-height: 85vh;
+    /* overall modal height constraint */
     display: flex;
     flex-direction: column;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 15px 40px rgba(0, 39, 84, 0.2);
     padding: 24px;
     position: relative;
+    color: var(--text-main);
 }
 
 .modal-header {
@@ -265,14 +317,17 @@ h2 {
 }
 
 #modal-close:hover {
-    color: #fff;
+    color: var(--text-main);
 }
 
 #modal-list-container {
     margin-top: 15px;
     overflow-y: auto;
+    /* MUST FIX SCROLLING OVERFLOW */
+    max-height: 55vh;
+    /* PREVENTS MODAL FROM BLOWING OUT CSS HEIGHT */
     flex-grow: 1;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(0, 39, 84, 0.1);
     padding-top: 10px;
 }
 
@@ -284,28 +339,28 @@ h2 {
 
 #modal-table th {
     text-align: left;
-    color: var(--text-muted);
+    color: var(--btn-primary);
     font-weight: 600;
     padding: 8px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid rgba(0, 39, 84, 0.1);
     position: sticky;
     top: 0;
-    background: #1f2833;
+    background: var(--modal-bg);
 }
 
 #modal-table td {
     padding: 10px 8px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(0, 39, 84, 0.05);
 }
 
 #modal-table tr:hover td {
-    background: rgba(102, 252, 241, 0.05);
+    background: rgba(0, 115, 188, 0.05);
 }
 
 .row-action-btn {
     background: transparent;
-    border: 1px solid var(--collab-color);
-    color: var(--collab-color);
+    border: 1px solid var(--btn-primary);
+    color: var(--btn-primary);
     padding: 4px 8px;
     border-radius: 4px;
     font-size: 11px;
@@ -316,6 +371,7 @@ h2 {
 }
 
 .row-action-btn:hover {
-    background: var(--collab-color);
-    color: var(--bg-color);
+    background: var(--btn-primary);
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 115, 188, 0.2);
 }

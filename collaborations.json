@@ -4591,6 +4591,3781 @@
     ]
   },
   {
+    "name": "CA",
+    "country_code": "CA",
+    "count": 24545,
+    "lat": 47.76074932903789,
+    "lon": -108.94870631122288,
+    "institutions": [
+      {
+        "count": 11319,
+        "name": "University of Victoria",
+        "lat": 48.4359,
+        "lon": -123.35155,
+        "id": "https://openalex.org/I212119943"
+      },
+      {
+        "count": 1639,
+        "name": "University of British Columbia",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I141945490"
+      },
+      {
+        "count": 905,
+        "name": "University of Toronto",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I185261750"
+      },
+      {
+        "count": 633,
+        "name": "McGill University",
+        "lat": 45.50884,
+        "lon": -73.58781,
+        "id": "https://openalex.org/I5023651"
+      },
+      {
+        "count": 383,
+        "name": "University of Calgary",
+        "lat": 51.05011,
+        "lon": -114.08529,
+        "id": "https://openalex.org/I168635309"
+      },
+      {
+        "count": 374,
+        "name": "Simon Fraser University",
+        "lat": 49.26636,
+        "lon": -122.95263,
+        "id": "https://openalex.org/I18014758"
+      },
+      {
+        "count": 374,
+        "name": "University of Alberta",
+        "lat": 53.55014,
+        "lon": -113.46871,
+        "id": "https://openalex.org/I154425047"
+      },
+      {
+        "count": 316,
+        "name": "TRIUMF",
+        "lat": 49.24966049194336,
+        "lon": -123.11933898925781,
+        "id": "https://openalex.org/I1304378839"
+      },
+      {
+        "count": 291,
+        "name": "Herzberg Institute of Astrophysics",
+        "lat": 48.42470932006836,
+        "lon": -123.36528015136719,
+        "id": "https://openalex.org/I123576224"
+      },
+      {
+        "count": 265,
+        "name": "Fisheries and Oceans Canada",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I1319689352"
+      },
+      {
+        "count": 252,
+        "name": "Dalhousie University",
+        "lat": 44.64269,
+        "lon": -63.57688,
+        "id": "https://openalex.org/I129902397"
+      },
+      {
+        "count": 243,
+        "name": "Environment and Climate Change Canada",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I1342547582"
+      },
+      {
+        "count": 209,
+        "name": "Universit\u00e9 Laval",
+        "lat": 46.81228,
+        "lon": -71.21454,
+        "id": "https://openalex.org/I43406934"
+      },
+      {
+        "count": 200,
+        "name": "Western University",
+        "lat": 42.98339,
+        "lon": -81.23304,
+        "id": "https://openalex.org/I125749732"
+      },
+      {
+        "count": 199,
+        "name": "Universit\u00e9 de Montr\u00e9al",
+        "lat": 45.50884,
+        "lon": -73.58781,
+        "id": "https://openalex.org/I70931966"
+      },
+      {
+        "count": 181,
+        "name": "Public Health Ontario",
+        "lat": 43.66012954711914,
+        "lon": -79.3899154663086,
+        "id": "https://openalex.org/I4210125326"
+      },
+      {
+        "count": 168,
+        "name": "Toronto Metropolitan University",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I530967"
+      },
+      {
+        "count": 161,
+        "name": "McMaster University",
+        "lat": 43.25011,
+        "lon": -79.84963,
+        "id": "https://openalex.org/I98251732"
+      },
+      {
+        "count": 148,
+        "name": "University of Manitoba",
+        "lat": 49.8844,
+        "lon": -97.14704,
+        "id": "https://openalex.org/I46247651"
+      },
+      {
+        "count": 145,
+        "name": "National Research Council Canada",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I4210159778"
+      },
+      {
+        "count": 142,
+        "name": "BC Cancer Agency",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I1289530486"
+      },
+      {
+        "count": 133,
+        "name": "University of Ottawa",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I153718931"
+      },
+      {
+        "count": 131,
+        "name": "York University",
+        "lat": 43.70642852783203,
+        "lon": -79.39864349365234,
+        "id": "https://openalex.org/I192455969"
+      },
+      {
+        "count": 127,
+        "name": "University of Saskatchewan",
+        "lat": 52.132381439208984,
+        "lon": -106.6689224243164,
+        "id": "https://openalex.org/I32625721"
+      },
+      {
+        "count": 126,
+        "name": "University of Waterloo",
+        "lat": 43.4668,
+        "lon": -80.51639,
+        "id": "https://openalex.org/I151746483"
+      },
+      {
+        "count": 126,
+        "name": "Queen's University",
+        "lat": 44.22976,
+        "lon": -76.48098,
+        "id": "https://openalex.org/I204722609"
+      },
+      {
+        "count": 125,
+        "name": "Memorial University of Newfoundland",
+        "lat": 47.56494,
+        "lon": -52.70931,
+        "id": "https://openalex.org/I130438778"
+      },
+      {
+        "count": 119,
+        "name": "Okanagan University College",
+        "lat": 49.88307,
+        "lon": -119.48568,
+        "id": "https://openalex.org/I822440"
+      },
+      {
+        "count": 111,
+        "name": "Vancouver Island University",
+        "lat": 49.1663818359375,
+        "lon": -123.94003295898438,
+        "id": "https://openalex.org/I28638086"
+      },
+      {
+        "count": 111,
+        "name": "Canadian Sport Centre Pacific",
+        "lat": 48.48786544799805,
+        "lon": -123.41259002685547,
+        "id": "https://openalex.org/I4210109166"
+      },
+      {
+        "count": 108,
+        "name": "Canada's Michael Smith Genome Sciences Centre",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I4210133112"
+      },
+      {
+        "count": 106,
+        "name": "University of Guelph",
+        "lat": 43.54594039916992,
+        "lon": -80.25598907470703,
+        "id": "https://openalex.org/I79817857"
+      },
+      {
+        "count": 106,
+        "name": "BC Centre for Disease Control",
+        "lat": 49.24966049194336,
+        "lon": -123.11933898925781,
+        "id": "https://openalex.org/I2802940977"
+      },
+      {
+        "count": 106,
+        "name": "Ocean Networks Canada Society",
+        "lat": 48.4359,
+        "lon": -123.35155,
+        "id": "https://openalex.org/I2802200126"
+      },
+      {
+        "count": 90,
+        "name": "Agriculture and Agri-Food Canada",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I1331897569"
+      },
+      {
+        "count": 88,
+        "name": "Natural Resources Canada",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I1281735042"
+      },
+      {
+        "count": 88,
+        "name": "Canadian Centre on Substance Use and Addiction",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I2799308120"
+      },
+      {
+        "count": 87,
+        "name": "AIDS Vancouver",
+        "lat": 49.277584075927734,
+        "lon": -123.12383270263672,
+        "id": "https://openalex.org/I4210131951"
+      },
+      {
+        "count": 83,
+        "name": "University of Windsor",
+        "lat": 42.300079345703125,
+        "lon": -83.01654052734375,
+        "id": "https://openalex.org/I74413500"
+      },
+      {
+        "count": 77,
+        "name": "McGill University Health Centre",
+        "lat": 45.50884,
+        "lon": -73.58781,
+        "id": "https://openalex.org/I2801766832"
+      },
+      {
+        "count": 76,
+        "name": "Geological Survey of Canada",
+        "lat": 45.401893615722656,
+        "lon": -75.70528411865234,
+        "id": "https://openalex.org/I1327020802"
+      },
+      {
+        "count": 72,
+        "name": "Pacific Institute for Climate Solutions",
+        "lat": 48.4359016418457,
+        "lon": -123.35154724121094,
+        "id": "https://openalex.org/I4210094865"
+      },
+      {
+        "count": 64,
+        "name": "Carleton University",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I67031392"
+      },
+      {
+        "count": 64,
+        "name": "St. Michael's Hospital",
+        "lat": 43.70642852783203,
+        "lon": -79.39864349365234,
+        "id": "https://openalex.org/I1297363086"
+      },
+      {
+        "count": 63,
+        "name": "BC Children's Hospital",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I4210153200"
+      },
+      {
+        "count": 56,
+        "name": "British Columbia Centre on Substance Use",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I4210100522"
+      },
+      {
+        "count": 54,
+        "name": "Centre for Addiction and Mental Health",
+        "lat": 43.70642852783203,
+        "lon": -79.39864349365234,
+        "id": "https://openalex.org/I1338135719"
+      },
+      {
+        "count": 53,
+        "name": "Raincoast Conservation Foundation",
+        "lat": 48.4359016418457,
+        "lon": -123.35154724121094,
+        "id": "https://openalex.org/I4210145271"
+      },
+      {
+        "count": 50,
+        "name": "Island Health",
+        "lat": 48.43642044067383,
+        "lon": -123.32676696777344,
+        "id": "https://openalex.org/I1279684262"
+      },
+      {
+        "count": 49,
+        "name": "Institut National de Sant\u00e9 Publique du Qu\u00e9bec",
+        "lat": 46.81228,
+        "lon": -71.21454,
+        "id": "https://openalex.org/I4210095493"
+      },
+      {
+        "count": 48,
+        "name": "Government of British Columbia",
+        "lat": 48.4359016418457,
+        "lon": -123.35154724121094,
+        "id": "https://openalex.org/I4210097923"
+      },
+      {
+        "count": 47,
+        "name": "Canadian Forest Service",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I1280367701"
+      },
+      {
+        "count": 47,
+        "name": "Community Based Research Centre",
+        "lat": 49.28142166137695,
+        "lon": -123.12541961669922,
+        "id": "https://openalex.org/I4210116899"
+      },
+      {
+        "count": 45,
+        "name": "Genome British Columbia",
+        "lat": 49.26445770263672,
+        "lon": -123.11700439453125,
+        "id": "https://openalex.org/I4210132220"
+      },
+      {
+        "count": 45,
+        "name": "University Health Network",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I1325899441"
+      },
+      {
+        "count": 44,
+        "name": "Concordia University",
+        "lat": 45.50883865356445,
+        "lon": -73.58780670166016,
+        "id": "https://openalex.org/I60158472"
+      },
+      {
+        "count": 44,
+        "name": "University of Regina",
+        "lat": 50.45008087158203,
+        "lon": -104.6177978515625,
+        "id": "https://openalex.org/I194028371"
+      },
+      {
+        "count": 44,
+        "name": "Centre Int\u00e9gr\u00e9 Universitaire de Sant\u00e9 et de Services Sociaux du Centre-Sud-de-l'\u00cele-de-Montr\u00e9al",
+        "lat": 45.50884,
+        "lon": -73.58781,
+        "id": "https://openalex.org/I4210150047"
+      },
+      {
+        "count": 43,
+        "name": "Montreal Neurological Institute and Hospital",
+        "lat": 45.50884,
+        "lon": -73.58781,
+        "id": "https://openalex.org/I1292859797"
+      },
+      {
+        "count": 42,
+        "name": "Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al",
+        "lat": 45.50884,
+        "lon": -73.58781,
+        "id": "https://openalex.org/I159129438"
+      },
+      {
+        "count": 42,
+        "name": "Spinal Cord Injury BC",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I2801953985"
+      },
+      {
+        "count": 42,
+        "name": "Tula Foundation",
+        "lat": 49.24966049194336,
+        "lon": -123.11933898925781,
+        "id": "https://openalex.org/I4210087486"
+      },
+      {
+        "count": 42,
+        "name": "Princess Margaret Cancer Centre",
+        "lat": 43.658084869384766,
+        "lon": -79.3901138305664,
+        "id": "https://openalex.org/I2802654988"
+      },
+      {
+        "count": 41,
+        "name": "Hotchkiss Brain Institute",
+        "lat": 51.05011,
+        "lon": -114.08529,
+        "id": "https://openalex.org/I4405260330"
+      },
+      {
+        "count": 39,
+        "name": "Women and Children\u2019s Health Research Institute",
+        "lat": 53.52139663696289,
+        "lon": -113.52654266357422,
+        "id": "https://openalex.org/I4210131405"
+      },
+      {
+        "count": 37,
+        "name": "Wildlife Conservation Society Canada",
+        "lat": 43.66927719116211,
+        "lon": -79.4070816040039,
+        "id": "https://openalex.org/I2799976611"
+      },
+      {
+        "count": 37,
+        "name": "University of British Columbia, Okanagan Campus",
+        "lat": 49.88307,
+        "lon": -119.48568,
+        "id": "https://openalex.org/I4405260628"
+      },
+      {
+        "count": 36,
+        "name": "Montreal Clinical Research Institute",
+        "lat": 45.50884,
+        "lon": -73.58781,
+        "id": "https://openalex.org/I4210158752"
+      },
+      {
+        "count": 35,
+        "name": "Bamfield Marine Sciences Centre",
+        "lat": 48.83565902709961,
+        "lon": -125.13549041748047,
+        "id": "https://openalex.org/I2802902549"
+      },
+      {
+        "count": 35,
+        "name": "Public Health Agency of Canada",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I177235860"
+      },
+      {
+        "count": 35,
+        "name": "Baycrest Hospital",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I2802437833"
+      },
+      {
+        "count": 33,
+        "name": "Universit\u00e9 de Sherbrooke",
+        "lat": 45.40008,
+        "lon": -71.89908,
+        "id": "https://openalex.org/I135117807"
+      },
+      {
+        "count": 33,
+        "name": "Ottawa Hospital",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I2800722420"
+      },
+      {
+        "count": 32,
+        "name": "Vancouver Coastal Health",
+        "lat": 49.26386260986328,
+        "lon": -123.11801147460938,
+        "id": "https://openalex.org/I141074466"
+      },
+      {
+        "count": 32,
+        "name": "University of Northern British Columbia",
+        "lat": 53.91659927368164,
+        "lon": -122.75301361083984,
+        "id": "https://openalex.org/I151934421"
+      },
+      {
+        "count": 30,
+        "name": "University of British Columbia Hospital",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I1287378978"
+      },
+      {
+        "count": 29,
+        "name": "Brock University",
+        "lat": 43.171260833740234,
+        "lon": -79.24266815185547,
+        "id": "https://openalex.org/I186803428"
+      },
+      {
+        "count": 29,
+        "name": "Ministry of Health",
+        "lat": 48.4359016418457,
+        "lon": -123.35154724121094,
+        "id": "https://openalex.org/I1308729876"
+      },
+      {
+        "count": 28,
+        "name": "Centre Hospitalier de l\u2019Universit\u00e9 de Montr\u00e9al",
+        "lat": 45.50883865356445,
+        "lon": -73.58780670166016,
+        "id": "https://openalex.org/I4210142730"
+      },
+      {
+        "count": 28,
+        "name": "Alberta Children's Hospital",
+        "lat": 51.05010986328125,
+        "lon": -114.08528900146484,
+        "id": "https://openalex.org/I2802127220"
+      },
+      {
+        "count": 28,
+        "name": "St. Francis Xavier University",
+        "lat": 45.616851806640625,
+        "lon": -61.99858093261719,
+        "id": "https://openalex.org/I197191942"
+      },
+      {
+        "count": 27,
+        "name": "Institute for Clinical Evaluative Sciences",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I4210147079"
+      },
+      {
+        "count": 26,
+        "name": "Thompson Rivers University",
+        "lat": 50.666481018066406,
+        "lon": -120.31919860839844,
+        "id": "https://openalex.org/I160262251"
+      },
+      {
+        "count": 26,
+        "name": "Children's Hospital of Eastern Ontario",
+        "lat": 45.4011116027832,
+        "lon": -75.6513900756836,
+        "id": "https://openalex.org/I2799330578"
+      },
+      {
+        "count": 25,
+        "name": "Ontario Brain Institute",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I4210159497"
+      },
+      {
+        "count": 25,
+        "name": "Saint Mary's University",
+        "lat": 44.6426887512207,
+        "lon": -63.576881408691406,
+        "id": "https://openalex.org/I66890659"
+      },
+      {
+        "count": 24,
+        "name": "Parks Canada",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I125932930"
+      },
+      {
+        "count": 23,
+        "name": "Sunnybrook Health Science Centre",
+        "lat": 43.70642852783203,
+        "lon": -79.39864349365234,
+        "id": "https://openalex.org/I1323843004"
+      },
+      {
+        "count": 23,
+        "name": "Assembly of First Nations",
+        "lat": 45.42240524291992,
+        "lon": -75.69625854492188,
+        "id": "https://openalex.org/I4210095454"
+      },
+      {
+        "count": 23,
+        "name": "The Scarborough Hospital",
+        "lat": 43.756187438964844,
+        "lon": -79.24678039550781,
+        "id": "https://openalex.org/I2799376586"
+      },
+      {
+        "count": 22,
+        "name": "Provincial Health Services Authority",
+        "lat": 49.233028411865234,
+        "lon": -123.12812805175781,
+        "id": "https://openalex.org/I156965999"
+      },
+      {
+        "count": 21,
+        "name": "Centre for Advancing Health Outcomes",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I4210136948"
+      },
+      {
+        "count": 21,
+        "name": "Trent University",
+        "lat": 44.30012130737305,
+        "lon": -78.31623077392578,
+        "id": "https://openalex.org/I662221"
+      },
+      {
+        "count": 21,
+        "name": "Jewish General Hospital",
+        "lat": 45.50884,
+        "lon": -73.58781,
+        "id": "https://openalex.org/I2801824472"
+      },
+      {
+        "count": 20,
+        "name": "Health Sciences Centre",
+        "lat": 49.8844,
+        "lon": -97.14704,
+        "id": "https://openalex.org/I2802362269"
+      },
+      {
+        "count": 19,
+        "name": "Institute of Particle Physics",
+        "lat": 48.46357345581055,
+        "lon": -123.31171417236328,
+        "id": "https://openalex.org/I4210099955"
+      },
+      {
+        "count": 19,
+        "name": "Vancouver General Hospital",
+        "lat": 49.261199951171875,
+        "lon": -123.12305450439453,
+        "id": "https://openalex.org/I2802832906"
+      },
+      {
+        "count": 19,
+        "name": "Trinity Western University",
+        "lat": 49.101070404052734,
+        "lon": -122.65882873535156,
+        "id": "https://openalex.org/I24370400"
+      },
+      {
+        "count": 18,
+        "name": "Institut National de la Recherche Scientifique",
+        "lat": 46.812278747558594,
+        "lon": -71.21453857421875,
+        "id": "https://openalex.org/I39481719"
+      },
+      {
+        "count": 18,
+        "name": "University of Lethbridge",
+        "lat": 49.699989318847656,
+        "lon": -112.81855773925781,
+        "id": "https://openalex.org/I107949126"
+      },
+      {
+        "count": 18,
+        "name": "Royal Roads University",
+        "lat": 48.4359016418457,
+        "lon": -123.35154724121094,
+        "id": "https://openalex.org/I65595360"
+      },
+      {
+        "count": 18,
+        "name": "Occupational Cancer Research Centre",
+        "lat": 43.6561393737793,
+        "lon": -79.38822174072266,
+        "id": "https://openalex.org/I4210110979"
+      },
+      {
+        "count": 18,
+        "name": "London Health Sciences Centre",
+        "lat": 42.98339,
+        "lon": -81.23304,
+        "id": "https://openalex.org/I2800925808"
+      },
+      {
+        "count": 18,
+        "name": "Centre hospitalier de l'Universit\u00e9 Laval",
+        "lat": 46.81228,
+        "lon": -71.21454,
+        "id": "https://openalex.org/I4210139308"
+      },
+      {
+        "count": 17,
+        "name": "Centre Hospitalier Universitaire Sainte-Justine",
+        "lat": 45.50883865356445,
+        "lon": -73.58780670166016,
+        "id": "https://openalex.org/I2802351361"
+      },
+      {
+        "count": 17,
+        "name": "Universit\u00e9 du Qu\u00e9bec \u00e0 Trois-Rivi\u00e8res",
+        "lat": 46.34515,
+        "lon": -72.5477,
+        "id": "https://openalex.org/I63341726"
+      },
+      {
+        "count": 17,
+        "name": "Impact",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I4210161256"
+      },
+      {
+        "count": 17,
+        "name": "Lakehead University",
+        "lat": 48.38201904296875,
+        "lon": -89.25018310546875,
+        "id": "https://openalex.org/I72541430"
+      },
+      {
+        "count": 16,
+        "name": "Kelowna General Hospital",
+        "lat": 49.87305450439453,
+        "lon": -119.4941635131836,
+        "id": "https://openalex.org/I2800978909"
+      },
+      {
+        "count": 16,
+        "name": "University of New Brunswick",
+        "lat": 45.94541,
+        "lon": -66.66558,
+        "id": "https://openalex.org/I106938459"
+      },
+      {
+        "count": 15,
+        "name": "Providence Health Care",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I1301114164"
+      },
+      {
+        "count": 15,
+        "name": "Government of Canada",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I2802286613"
+      },
+      {
+        "count": 15,
+        "name": "Mount Saint Vincent University",
+        "lat": 44.6426887512207,
+        "lon": -63.576881408691406,
+        "id": "https://openalex.org/I179301192"
+      },
+      {
+        "count": 15,
+        "name": "Royal British Columbia Museum",
+        "lat": 48.4359016418457,
+        "lon": -123.35154724121094,
+        "id": "https://openalex.org/I1301826503"
+      },
+      {
+        "count": 15,
+        "name": "Redlen Technologies (Canada)",
+        "lat": 48.560970306396484,
+        "lon": -123.4273910522461,
+        "id": "https://openalex.org/I4210122186"
+      },
+      {
+        "count": 15,
+        "name": "University of Ontario Institute of Technology",
+        "lat": 43.90012,
+        "lon": -78.84957,
+        "id": "https://openalex.org/I39470171"
+      },
+      {
+        "count": 15,
+        "name": "Canadian Cancer Society",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I156628971"
+      },
+      {
+        "count": 14,
+        "name": "Hospital for Sick Children",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I2801317318"
+      },
+      {
+        "count": 14,
+        "name": "Athabasca University",
+        "lat": 54.71686935424805,
+        "lon": -113.28536987304688,
+        "id": "https://openalex.org/I86897205"
+      },
+      {
+        "count": 14,
+        "name": "Brandon University",
+        "lat": 49.846920013427734,
+        "lon": -99.95305633544922,
+        "id": "https://openalex.org/I48890080"
+      },
+      {
+        "count": 14,
+        "name": "Wilfrid Laurier University",
+        "lat": 43.466800689697266,
+        "lon": -80.51638793945312,
+        "id": "https://openalex.org/I75381157"
+      },
+      {
+        "count": 14,
+        "name": "Toronto Rehabilitation Institute",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I2799838188"
+      },
+      {
+        "count": 13,
+        "name": "Mount Sinai Hospital",
+        "lat": 43.65763473510742,
+        "lon": -79.3907699584961,
+        "id": "https://openalex.org/I1291836623"
+      },
+      {
+        "count": 13,
+        "name": "Lunenfeld-Tanenbaum Research Institute",
+        "lat": 43.65754318237305,
+        "lon": -79.3907241821289,
+        "id": "https://openalex.org/I210557978"
+      },
+      {
+        "count": 13,
+        "name": "Natural Sciences and Engineering Research Council of Canada",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I122879082"
+      },
+      {
+        "count": 13,
+        "name": "British Columbia Institute of Technology",
+        "lat": 49.266361236572266,
+        "lon": -122.95262908935547,
+        "id": "https://openalex.org/I174167972"
+      },
+      {
+        "count": 13,
+        "name": "St. Boniface Hospital",
+        "lat": 49.8844,
+        "lon": -97.14704,
+        "id": "https://openalex.org/I2800567748"
+      },
+      {
+        "count": 13,
+        "name": "Government of Nunavut",
+        "lat": 63.746971130371094,
+        "lon": -68.51727294921875,
+        "id": "https://openalex.org/I4210140587"
+      },
+      {
+        "count": 13,
+        "name": "Camosun College",
+        "lat": 48.4359016418457,
+        "lon": -123.35154724121094,
+        "id": "https://openalex.org/I128807351"
+      },
+      {
+        "count": 13,
+        "name": "Centre hospitalier universitaire de Qu\u00e9bec",
+        "lat": 46.81228,
+        "lon": -71.21454,
+        "id": "https://openalex.org/I4210093650"
+      },
+      {
+        "count": 13,
+        "name": "Universit\u00e9 du Qu\u00e9bec en Outaouais",
+        "lat": 45.477230072021484,
+        "lon": -75.7016372680664,
+        "id": "https://openalex.org/I33217400"
+      },
+      {
+        "count": 12,
+        "name": "Okanagan College",
+        "lat": 49.88307,
+        "lon": -119.48568,
+        "id": "https://openalex.org/I198387804"
+      },
+      {
+        "count": 12,
+        "name": "Mount Royal University",
+        "lat": 51.05011,
+        "lon": -114.08529,
+        "id": "https://openalex.org/I870124129"
+      },
+      {
+        "count": 12,
+        "name": "Nova Scotia Health Authority",
+        "lat": 44.6426887512207,
+        "lon": -63.576881408691406,
+        "id": "https://openalex.org/I2802394193"
+      },
+      {
+        "count": 12,
+        "name": "St. Paul's Hospital",
+        "lat": 49.28059005737305,
+        "lon": -123.12824249267578,
+        "id": "https://openalex.org/I2801362399"
+      },
+      {
+        "count": 12,
+        "name": "Alberta Health Services",
+        "lat": 53.550140380859375,
+        "lon": -113.46871185302734,
+        "id": "https://openalex.org/I126859394"
+      },
+      {
+        "count": 12,
+        "name": "Montreal Heart Institute",
+        "lat": 45.50883865356445,
+        "lon": -73.58780670166016,
+        "id": "https://openalex.org/I2800290161"
+      },
+      {
+        "count": 12,
+        "name": "Institut Universitaire de Cardiologie et de Pneumologie de Qu\u00e9bec",
+        "lat": 46.81228,
+        "lon": -71.21454,
+        "id": "https://openalex.org/I4210135357"
+      },
+      {
+        "count": 12,
+        "name": "Critical Systems Labs",
+        "lat": 49.285621643066406,
+        "lon": -123.11565399169922,
+        "id": "https://openalex.org/I4210148369"
+      },
+      {
+        "count": 12,
+        "name": "Institut Universitaire de G\u00e9riatrie de Montr\u00e9al",
+        "lat": 45.49110412597656,
+        "lon": -73.62371063232422,
+        "id": "https://openalex.org/I4210126907"
+      },
+      {
+        "count": 11,
+        "name": "Universit\u00e9 du Qu\u00e9bec en Abitibi-T\u00e9miscamingue",
+        "lat": 48.2365608215332,
+        "lon": -79.02310943603516,
+        "id": "https://openalex.org/I190270569"
+      },
+      {
+        "count": 11,
+        "name": "University of the Fraser Valley",
+        "lat": 49.057979583740234,
+        "lon": -122.25257110595703,
+        "id": "https://openalex.org/I170606269"
+      },
+      {
+        "count": 11,
+        "name": "Alberta Environment and Protected Areas",
+        "lat": 53.550140380859375,
+        "lon": -113.46871185302734,
+        "id": "https://openalex.org/I1281635806"
+      },
+      {
+        "count": 11,
+        "name": "Interior Health",
+        "lat": 49.88469696044922,
+        "lon": -119.48912048339844,
+        "id": "https://openalex.org/I104778310"
+      },
+      {
+        "count": 11,
+        "name": "Victoria Heart Institute Foundation",
+        "lat": 48.429832458496094,
+        "lon": -123.3304672241211,
+        "id": "https://openalex.org/I4210103032"
+      },
+      {
+        "count": 11,
+        "name": "Canadian Society for Immunology",
+        "lat": 49.8843994140625,
+        "lon": -97.14704132080078,
+        "id": "https://openalex.org/I4210109542"
+      },
+      {
+        "count": 11,
+        "name": "Abbotsford Veterinary Clinic",
+        "lat": 49.04561233520508,
+        "lon": -122.29188537597656,
+        "id": "https://openalex.org/I4210108174"
+      },
+      {
+        "count": 10,
+        "name": "Health Canada",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I1288894424"
+      },
+      {
+        "count": 10,
+        "name": "St. Paul's Hospital",
+        "lat": 52.126983642578125,
+        "lon": -106.69617462158203,
+        "id": "https://openalex.org/I4210144237"
+      },
+      {
+        "count": 10,
+        "name": "Douglas College",
+        "lat": 49.20677947998047,
+        "lon": -122.91091918945312,
+        "id": "https://openalex.org/I177567560"
+      },
+      {
+        "count": 10,
+        "name": "Campion College",
+        "lat": 50.41819381713867,
+        "lon": -104.58697509765625,
+        "id": "https://openalex.org/I4210134649"
+      },
+      {
+        "count": 10,
+        "name": "Women's College Hospital",
+        "lat": 43.661685943603516,
+        "lon": -79.38749694824219,
+        "id": "https://openalex.org/I2801816099"
+      },
+      {
+        "count": 10,
+        "name": "Asia Pacific Foundation of Canada",
+        "lat": 49.28522491455078,
+        "lon": -123.11338806152344,
+        "id": "https://openalex.org/I1323992350"
+      },
+      {
+        "count": 10,
+        "name": "HEC Montr\u00e9al",
+        "lat": 45.50883865356445,
+        "lon": -73.58780670166016,
+        "id": "https://openalex.org/I108192572"
+      },
+      {
+        "count": 10,
+        "name": "Douglas Mental Health University Institute",
+        "lat": 45.50883865356445,
+        "lon": -73.58780670166016,
+        "id": "https://openalex.org/I2799434747"
+      },
+      {
+        "count": 10,
+        "name": "Learning Partnership",
+        "lat": 43.76167297363281,
+        "lon": -79.408203125,
+        "id": "https://openalex.org/I4210109119"
+      },
+      {
+        "count": 9,
+        "name": "Global Institute for Water Security",
+        "lat": 52.141082763671875,
+        "lon": -106.62439727783203,
+        "id": "https://openalex.org/I4210161576"
+      },
+      {
+        "count": 9,
+        "name": "First Nations University of Canada",
+        "lat": 50.45008087158203,
+        "lon": -104.6177978515625,
+        "id": "https://openalex.org/I243312964"
+      },
+      {
+        "count": 9,
+        "name": "Canadian Museum of Nature",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I4210115316"
+      },
+      {
+        "count": 9,
+        "name": "Izaak Walton Killam Health Centre",
+        "lat": 44.646400451660156,
+        "lon": -63.57291030883789,
+        "id": "https://openalex.org/I2800394539"
+      },
+      {
+        "count": 9,
+        "name": "SickKids Foundation",
+        "lat": 43.70642852783203,
+        "lon": -79.39864349365234,
+        "id": "https://openalex.org/I4210141030"
+      },
+      {
+        "count": 9,
+        "name": "ASL Environmental Sciences (Canada)",
+        "lat": 48.4359016418457,
+        "lon": -123.35154724121094,
+        "id": "https://openalex.org/I4210155046"
+      },
+      {
+        "count": 9,
+        "name": "Canadian Food Inspection Agency",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I1307613440"
+      },
+      {
+        "count": 9,
+        "name": "Canadian Space Agency",
+        "lat": 45.51883316040039,
+        "lon": -73.40377807617188,
+        "id": "https://openalex.org/I2800055578"
+      },
+      {
+        "count": 8,
+        "name": "MacEwan University",
+        "lat": 53.550140380859375,
+        "lon": -113.46871185302734,
+        "id": "https://openalex.org/I924318406"
+      },
+      {
+        "count": 8,
+        "name": "Bishop's University",
+        "lat": 45.400081634521484,
+        "lon": -71.89907836914062,
+        "id": "https://openalex.org/I113281461"
+      },
+      {
+        "count": 8,
+        "name": "Freshwater Fisheries Society of BC",
+        "lat": 48.43661117553711,
+        "lon": -123.38130950927734,
+        "id": "https://openalex.org/I4210120273"
+      },
+      {
+        "count": 8,
+        "name": "Regent Park Community Health Centre",
+        "lat": 43.65987014770508,
+        "lon": -79.3656234741211,
+        "id": "https://openalex.org/I4210100818"
+      },
+      {
+        "count": 8,
+        "name": "Vancouver Coastal Health Research Institute",
+        "lat": 49.24966049194336,
+        "lon": -123.11933898925781,
+        "id": "https://openalex.org/I4210150180"
+      },
+      {
+        "count": 8,
+        "name": "Government of Alberta",
+        "lat": 53.55014,
+        "lon": -113.46871,
+        "id": "https://openalex.org/I4210089433"
+      },
+      {
+        "count": 8,
+        "name": "Institute of Aging",
+        "lat": 45.49119186401367,
+        "lon": -73.62336730957031,
+        "id": "https://openalex.org/I4210151430"
+      },
+      {
+        "count": 8,
+        "name": "Ministry of Forests",
+        "lat": 48.4359016418457,
+        "lon": -123.35154724121094,
+        "id": "https://openalex.org/I4210131853"
+      },
+      {
+        "count": 8,
+        "name": "Centre for Interdisciplinary Research in Rehabilitation",
+        "lat": 45.54035568237305,
+        "lon": -73.57682037353516,
+        "id": "https://openalex.org/I4210127220"
+      },
+      {
+        "count": 8,
+        "name": "CancerCare Manitoba",
+        "lat": 49.8844,
+        "lon": -97.14704,
+        "id": "https://openalex.org/I4210088414"
+      },
+      {
+        "count": 8,
+        "name": "NOSM University",
+        "lat": 46.50008010864258,
+        "lon": -80.99974060058594,
+        "id": "https://openalex.org/I7899908"
+      },
+      {
+        "count": 8,
+        "name": "Victoria General Hospital",
+        "lat": 49.806800842285156,
+        "lon": -97.1528549194336,
+        "id": "https://openalex.org/I4210124341"
+      },
+      {
+        "count": 7,
+        "name": "Perimeter Institute",
+        "lat": 43.466800689697266,
+        "lon": -80.51638793945312,
+        "id": "https://openalex.org/I183974707"
+      },
+      {
+        "count": 7,
+        "name": "Government of Northwest Territories",
+        "lat": 62.45410919189453,
+        "lon": -114.37248229980469,
+        "id": "https://openalex.org/I4210160113"
+      },
+      {
+        "count": 7,
+        "name": "Laurentian University",
+        "lat": 46.4900016784668,
+        "lon": -80.9900131225586,
+        "id": "https://openalex.org/I52353378"
+      },
+      {
+        "count": 7,
+        "name": "Royal Jubilee Hospital",
+        "lat": 48.432743072509766,
+        "lon": -123.32763671875,
+        "id": "https://openalex.org/I2801382319"
+      },
+      {
+        "count": 7,
+        "name": "Ouranos",
+        "lat": 45.50634002685547,
+        "lon": -73.5724105834961,
+        "id": "https://openalex.org/I4210157637"
+      },
+      {
+        "count": 7,
+        "name": "Michael Smith Health Research BC",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I4210109318"
+      },
+      {
+        "count": 7,
+        "name": "BC Cancer Foundation",
+        "lat": 49.24966049194336,
+        "lon": -123.11933898925781,
+        "id": "https://openalex.org/I4210132154"
+      },
+      {
+        "count": 7,
+        "name": "OmniActive Health Technologies (Canada)",
+        "lat": 46.2357292175293,
+        "lon": -63.12827682495117,
+        "id": "https://openalex.org/I4210160003"
+      },
+      {
+        "count": 6,
+        "name": "Homewood Research Institute",
+        "lat": 43.55760955810547,
+        "lon": -80.25659942626953,
+        "id": "https://openalex.org/I4210144802"
+      },
+      {
+        "count": 6,
+        "name": "Bedford Institute of Oceanography",
+        "lat": 44.683902740478516,
+        "lon": -63.611751556396484,
+        "id": "https://openalex.org/I2800026062"
+      },
+      {
+        "count": 6,
+        "name": "Fraser Health",
+        "lat": 49.10634994506836,
+        "lon": -122.82508850097656,
+        "id": "https://openalex.org/I178133122"
+      },
+      {
+        "count": 6,
+        "name": "Ontario Centre of Excellence for Child and Youth Mental Health",
+        "lat": 45.41038131713867,
+        "lon": -75.63851928710938,
+        "id": "https://openalex.org/I4210087260"
+      },
+      {
+        "count": 6,
+        "name": "Beatrice Hunter Cancer Research Institute",
+        "lat": 44.646400451660156,
+        "lon": -63.57291030883789,
+        "id": "https://openalex.org/I4210087543"
+      },
+      {
+        "count": 6,
+        "name": "Canadian Institute for Theoretical Astrophysics",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I4210110940"
+      },
+      {
+        "count": 6,
+        "name": "Sinai Health System",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I4210130843"
+      },
+      {
+        "count": 6,
+        "name": "International Collaboration On Repair Discoveries",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I4210128534"
+      },
+      {
+        "count": 6,
+        "name": "Capital Regional District",
+        "lat": 49.35067367553711,
+        "lon": -123.12875366210938,
+        "id": "https://openalex.org/I2799385661"
+      },
+      {
+        "count": 6,
+        "name": "Research Manitoba",
+        "lat": 49.894073486328125,
+        "lon": -97.15153503417969,
+        "id": "https://openalex.org/I2801862240"
+      },
+      {
+        "count": 6,
+        "name": "Surrey Memorial Hospital",
+        "lat": 49.17634201049805,
+        "lon": -122.84403228759766,
+        "id": "https://openalex.org/I2800668805"
+      },
+      {
+        "count": 6,
+        "name": "United Nations University Institute for Water, Environment, and Health",
+        "lat": 43.256935119628906,
+        "lon": -79.90110778808594,
+        "id": "https://openalex.org/I4210132586"
+      },
+      {
+        "count": 6,
+        "name": "OTI Lumionics (Canada)",
+        "lat": 43.78436279296875,
+        "lon": -79.46598815917969,
+        "id": "https://openalex.org/I4210099808"
+      },
+      {
+        "count": 6,
+        "name": "University of Alberta Hospital",
+        "lat": 53.52055740356445,
+        "lon": -113.52471923828125,
+        "id": "https://openalex.org/I2802925319"
+      },
+      {
+        "count": 6,
+        "name": "Ontario HIV Treatment Network",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I4210146915"
+      },
+      {
+        "count": 6,
+        "name": "University Canada West",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I214977574"
+      },
+      {
+        "count": 6,
+        "name": "Minist\u00e8re des Ressources naturelles et des For\u00eats",
+        "lat": 46.81228,
+        "lon": -71.21454,
+        "id": "https://openalex.org/I4210166601"
+      },
+      {
+        "count": 6,
+        "name": "Positive Living North",
+        "lat": 53.91887283325195,
+        "lon": -122.74939727783203,
+        "id": "https://openalex.org/I4210103688"
+      },
+      {
+        "count": 6,
+        "name": "Libin Cardiovascular Institute of Alberta",
+        "lat": 51.11979293823242,
+        "lon": -114.0096435546875,
+        "id": "https://openalex.org/I56478863"
+      },
+      {
+        "count": 5,
+        "name": "Canadian Water and Wastewater Association",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I4210088004"
+      },
+      {
+        "count": 5,
+        "name": "Mount Allison University",
+        "lat": 45.898681640625,
+        "lon": -64.36836242675781,
+        "id": "https://openalex.org/I163902620"
+      },
+      {
+        "count": 5,
+        "name": "Yukon University",
+        "lat": 60.71611,
+        "lon": -135.05375,
+        "id": "https://openalex.org/I170481763"
+      },
+      {
+        "count": 5,
+        "name": "Children\u2019s Health Research Institute",
+        "lat": 42.98339,
+        "lon": -81.23304,
+        "id": "https://openalex.org/I4210136254"
+      },
+      {
+        "count": 5,
+        "name": "Institute for Work & Health",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I4210149587"
+      },
+      {
+        "count": 5,
+        "name": "Research and Productivity Council",
+        "lat": 45.94541,
+        "lon": -66.66558,
+        "id": "https://openalex.org/I4210098097"
+      },
+      {
+        "count": 5,
+        "name": "Sunnybrook Hospital",
+        "lat": 43.72160339355469,
+        "lon": -79.37690734863281,
+        "id": "https://openalex.org/I4210167439"
+      },
+      {
+        "count": 5,
+        "name": "Arthur B. McDonald-Canadian Astroparticle Physics Research Institute",
+        "lat": 44.22976,
+        "lon": -76.48098,
+        "id": "https://openalex.org/I4210100002"
+      },
+      {
+        "count": 5,
+        "name": "Seastar Chemicals (Canada)",
+        "lat": 48.653385162353516,
+        "lon": -123.4168701171875,
+        "id": "https://openalex.org/I4210148599"
+      },
+      {
+        "count": 5,
+        "name": "Foothills Medical Centre",
+        "lat": 51.05010986328125,
+        "lon": -114.08528900146484,
+        "id": "https://openalex.org/I2802418778"
+      },
+      {
+        "count": 5,
+        "name": "NeuroDevNet",
+        "lat": 49.245887756347656,
+        "lon": -123.12377166748047,
+        "id": "https://openalex.org/I4210138751"
+      },
+      {
+        "count": 5,
+        "name": "Canada Research Chairs",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I2801862477"
+      },
+      {
+        "count": 5,
+        "name": "Bruy\u00e8re",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I4210145570"
+      },
+      {
+        "count": 5,
+        "name": "Vancouver Native Health Society",
+        "lat": 49.281280517578125,
+        "lon": -123.09435272216797,
+        "id": "https://openalex.org/I4210162250"
+      },
+      {
+        "count": 5,
+        "name": "Saint John Regional Hospital",
+        "lat": 45.301719665527344,
+        "lon": -66.08464813232422,
+        "id": "https://openalex.org/I2800296662"
+      },
+      {
+        "count": 5,
+        "name": "Canadian AIDS Treatment Information Exchange",
+        "lat": 43.64664840698242,
+        "lon": -79.40220642089844,
+        "id": "https://openalex.org/I4210133545"
+      },
+      {
+        "count": 5,
+        "name": "Prairie Improvement Network",
+        "lat": 49.803733825683594,
+        "lon": -97.1496353149414,
+        "id": "https://openalex.org/I4210149032"
+      },
+      {
+        "count": 5,
+        "name": "Ontario Forest Research Institute",
+        "lat": 46.503868103027344,
+        "lon": -84.30096435546875,
+        "id": "https://openalex.org/I206426038"
+      },
+      {
+        "count": 5,
+        "name": "Ottawa Public Health",
+        "lat": 45.34569549560547,
+        "lon": -75.76390075683594,
+        "id": "https://openalex.org/I4210143003"
+      },
+      {
+        "count": 5,
+        "name": "BGC Engineering (Canada)",
+        "lat": 49.28028869628906,
+        "lon": -123.12354278564453,
+        "id": "https://openalex.org/I4210107703"
+      },
+      {
+        "count": 5,
+        "name": "MEG-3 (Canada)",
+        "lat": 44.68463134765625,
+        "lon": -63.63808822631836,
+        "id": "https://openalex.org/I4210135170"
+      },
+      {
+        "count": 5,
+        "name": "Pfizer (Canada)",
+        "lat": 45.45008087158203,
+        "lon": -73.86585998535156,
+        "id": "https://openalex.org/I4210155296"
+      },
+      {
+        "count": 4,
+        "name": "Quest University Canada",
+        "lat": 49.73820877075195,
+        "lon": -123.10042572021484,
+        "id": "https://openalex.org/I232906412"
+      },
+      {
+        "count": 4,
+        "name": "Mila - Quebec Artificial Intelligence Institute",
+        "lat": 45.50884,
+        "lon": -73.58781,
+        "id": "https://openalex.org/I4210164802"
+      },
+      {
+        "count": 4,
+        "name": "Women's Health Research Institute",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I4210142429"
+      },
+      {
+        "count": 4,
+        "name": "Terry Fox Research Institute",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I4210094500"
+      },
+      {
+        "count": 4,
+        "name": "Alberta Medical Association",
+        "lat": 53.5495491027832,
+        "lon": -113.53375244140625,
+        "id": "https://openalex.org/I2800073737"
+      },
+      {
+        "count": 4,
+        "name": "Population Health Research Institute",
+        "lat": 43.2501106262207,
+        "lon": -79.8496322631836,
+        "id": "https://openalex.org/I2802834092"
+      },
+      {
+        "count": 4,
+        "name": "Victoria Park",
+        "lat": 45.48341,
+        "lon": -73.59918,
+        "id": "https://openalex.org/I4210122438"
+      },
+      {
+        "count": 4,
+        "name": "JMIR Publications",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I3024796263"
+      },
+      {
+        "count": 4,
+        "name": "Canadian Patient Safety Institute",
+        "lat": 53.550140380859375,
+        "lon": -113.46871185302734,
+        "id": "https://openalex.org/I4210135266"
+      },
+      {
+        "count": 4,
+        "name": "Center for Northern Studies",
+        "lat": 46.812278747558594,
+        "lon": -71.21453857421875,
+        "id": "https://openalex.org/I4210110488"
+      },
+      {
+        "count": 4,
+        "name": "New York Institute of Technology",
+        "lat": 49.28437423706055,
+        "lon": -123.1164779663086,
+        "id": "https://openalex.org/I135364568"
+      },
+      {
+        "count": 4,
+        "name": "B.C. Women's Hospital & Health Centre",
+        "lat": 49.24361038208008,
+        "lon": -123.12472534179688,
+        "id": "https://openalex.org/I4210164805"
+      },
+      {
+        "count": 4,
+        "name": "Institute for Circumpolar Health Research",
+        "lat": 62.45411,
+        "lon": -114.37248,
+        "id": "https://openalex.org/I4210128176"
+      },
+      {
+        "count": 4,
+        "name": "Cape Breton University",
+        "lat": 46.135101318359375,
+        "lon": -60.183101654052734,
+        "id": "https://openalex.org/I10213569"
+      },
+      {
+        "count": 4,
+        "name": "Canadian Heritage",
+        "lat": 45.42536163330078,
+        "lon": -75.7203140258789,
+        "id": "https://openalex.org/I3148078479"
+      },
+      {
+        "count": 4,
+        "name": "Inuit Tapiriit Kanatami",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I69481337"
+      },
+      {
+        "count": 4,
+        "name": "Centre for Research in Astrophysics of Qu\u00e9bec",
+        "lat": 45.50556182861328,
+        "lon": -73.61418151855469,
+        "id": "https://openalex.org/I4210136110"
+      },
+      {
+        "count": 4,
+        "name": "H\u00f4pital du Saint-Sacrement",
+        "lat": 46.81228,
+        "lon": -71.21454,
+        "id": "https://openalex.org/I4210091643"
+      },
+      {
+        "count": 4,
+        "name": "Canadian Society for Exercise Physiology",
+        "lat": 45.41803741455078,
+        "lon": -75.69078063964844,
+        "id": "https://openalex.org/I4210112146"
+      },
+      {
+        "count": 4,
+        "name": "FPInnovations",
+        "lat": 45.44868087768555,
+        "lon": -73.81668853759766,
+        "id": "https://openalex.org/I2800518580"
+      },
+      {
+        "count": 4,
+        "name": "Minist\u00e8re de l'Agriculture, des P\u00eacheries et de l'Alimentation",
+        "lat": 46.81228,
+        "lon": -71.21454,
+        "id": "https://openalex.org/I4210149126"
+      },
+      {
+        "count": 4,
+        "name": "St. Joseph's Care Group",
+        "lat": 48.44136428833008,
+        "lon": -89.24177551269531,
+        "id": "https://openalex.org/I4210144663"
+      },
+      {
+        "count": 4,
+        "name": "Mowi (Canada)",
+        "lat": 50.01633834838867,
+        "lon": -125.24459075927734,
+        "id": "https://openalex.org/I4210155279"
+      },
+      {
+        "count": 4,
+        "name": "University of Winnipeg",
+        "lat": 49.8843994140625,
+        "lon": -97.14704132080078,
+        "id": "https://openalex.org/I872945872"
+      },
+      {
+        "count": 4,
+        "name": "Government of Prince Edward Island",
+        "lat": 46.23823928833008,
+        "lon": -63.131141662597656,
+        "id": "https://openalex.org/I2800675162"
+      },
+      {
+        "count": 4,
+        "name": "Saskatchewan Cancer Agency",
+        "lat": 50.45008087158203,
+        "lon": -104.6177978515625,
+        "id": "https://openalex.org/I4210091762"
+      },
+      {
+        "count": 4,
+        "name": "Oakville-Trafalgar Memorial Hospital",
+        "lat": 43.44989013671875,
+        "lon": -79.76496887207031,
+        "id": "https://openalex.org/I2800787416"
+      },
+      {
+        "count": 4,
+        "name": "Concordia University of Edmonton",
+        "lat": 53.550140380859375,
+        "lon": -113.46871185302734,
+        "id": "https://openalex.org/I131564278"
+      },
+      {
+        "count": 4,
+        "name": "Institute for Research in Immunology and Cancer",
+        "lat": 45.50883865356445,
+        "lon": -73.58780670166016,
+        "id": "https://openalex.org/I4210096154"
+      },
+      {
+        "count": 4,
+        "name": "Centre for Social Innovation",
+        "lat": 43.66340255737305,
+        "lon": -79.41082000732422,
+        "id": "https://openalex.org/I4210123574"
+      },
+      {
+        "count": 4,
+        "name": "Western Forest Products",
+        "lat": 49.28282928466797,
+        "lon": -123.11918640136719,
+        "id": "https://openalex.org/I886582847"
+      },
+      {
+        "count": 3,
+        "name": "Nuu Chah Nulth Tribal Council",
+        "lat": 49.241329193115234,
+        "lon": -124.80280303955078,
+        "id": "https://openalex.org/I2802878716"
+      },
+      {
+        "count": 3,
+        "name": "University of Prince Edward Island",
+        "lat": 46.257179260253906,
+        "lon": -63.13921356201172,
+        "id": "https://openalex.org/I22188714"
+      },
+      {
+        "count": 3,
+        "name": "Nature Conservancy of Canada",
+        "lat": 43.70012664794922,
+        "lon": -79.43505096435547,
+        "id": "https://openalex.org/I58114740"
+      },
+      {
+        "count": 3,
+        "name": "Toronto Centre for Phenogenomics",
+        "lat": 43.65835189819336,
+        "lon": -79.39221954345703,
+        "id": "https://openalex.org/I4210145731"
+      },
+      {
+        "count": 3,
+        "name": "Canadian AIDS Society",
+        "lat": 45.418121337890625,
+        "lon": -75.69590759277344,
+        "id": "https://openalex.org/I2799462446"
+      },
+      {
+        "count": 3,
+        "name": "Ericsson (Canada)",
+        "lat": 43.58768844604492,
+        "lon": -79.65717315673828,
+        "id": "https://openalex.org/I4210094041"
+      },
+      {
+        "count": 3,
+        "name": "Defence Research and Development Canada",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I1297460800"
+      },
+      {
+        "count": 3,
+        "name": "Canadian Centre for Applied Research in Cancer Control",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I4210153208"
+      },
+      {
+        "count": 3,
+        "name": "Universit\u00e9 du Qu\u00e9bec \u00e0 Chicoutimi",
+        "lat": 48.416751861572266,
+        "lon": -71.06572723388672,
+        "id": "https://openalex.org/I104914703"
+      },
+      {
+        "count": 3,
+        "name": "Horizon Health Network",
+        "lat": 45.932979583740234,
+        "lon": -66.63566589355469,
+        "id": "https://openalex.org/I2802307166"
+      },
+      {
+        "count": 3,
+        "name": "Yorkville University",
+        "lat": 45.94899368286133,
+        "lon": -66.69691467285156,
+        "id": "https://openalex.org/I4210139955"
+      },
+      {
+        "count": 3,
+        "name": "Centres Int\u00e9gr\u00e9 Universitaires de Sant\u00e9 et de Services Sociaux",
+        "lat": 45.57403564453125,
+        "lon": -73.5595703125,
+        "id": "https://openalex.org/I4210155492"
+      },
+      {
+        "count": 3,
+        "name": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski",
+        "lat": 48.44879,
+        "lon": -68.52396,
+        "id": "https://openalex.org/I182451676"
+      },
+      {
+        "count": 3,
+        "name": "Positive Living Society of British Columbia",
+        "lat": 49.2813835144043,
+        "lon": -123.08661651611328,
+        "id": "https://openalex.org/I4210106599"
+      },
+      {
+        "count": 3,
+        "name": "Grieg Seafood (Canada)",
+        "lat": 50.02724075317383,
+        "lon": -125.25579071044922,
+        "id": "https://openalex.org/I4210125347"
+      },
+      {
+        "count": 3,
+        "name": "Burnaby Hospital",
+        "lat": 49.249549865722656,
+        "lon": -123.01587677001953,
+        "id": "https://openalex.org/I2802647910"
+      },
+      {
+        "count": 3,
+        "name": "Kingston Process Metallurgy (Canada)",
+        "lat": 44.24732971191406,
+        "lon": -76.57527923583984,
+        "id": "https://openalex.org/I4210103639"
+      },
+      {
+        "count": 3,
+        "name": "Acadia University",
+        "lat": 45.08345,
+        "lon": -64.36546,
+        "id": "https://openalex.org/I92688161"
+      },
+      {
+        "count": 3,
+        "name": "Lawson Health Research Institute",
+        "lat": 42.98339,
+        "lon": -81.23304,
+        "id": "https://openalex.org/I131944076"
+      },
+      {
+        "count": 3,
+        "name": "Canadian Blood Services",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I95297979"
+      },
+      {
+        "count": 3,
+        "name": "Aurora College",
+        "lat": 68.35916900634766,
+        "lon": -133.71820068359375,
+        "id": "https://openalex.org/I4210157750"
+      },
+      {
+        "count": 3,
+        "name": "Victoria General Hospital",
+        "lat": 48.4668083190918,
+        "lon": -123.43257904052734,
+        "id": "https://openalex.org/I4210132243"
+      },
+      {
+        "count": 3,
+        "name": "ABB (Canada)",
+        "lat": 45.49173355102539,
+        "lon": -73.73416137695312,
+        "id": "https://openalex.org/I4210124422"
+      },
+      {
+        "count": 3,
+        "name": "Centre for Global Health Research",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I4210137763"
+      },
+      {
+        "count": 3,
+        "name": "Ontario Institute for Cancer Research",
+        "lat": 43.70642852783203,
+        "lon": -79.39864349365234,
+        "id": "https://openalex.org/I112260969"
+      },
+      {
+        "count": 3,
+        "name": "Government of Nova Scotia",
+        "lat": 44.648597717285156,
+        "lon": -63.5765266418457,
+        "id": "https://openalex.org/I2801502999"
+      },
+      {
+        "count": 3,
+        "name": "Winnipeg Regional Health Authority",
+        "lat": 49.8844,
+        "lon": -97.14704,
+        "id": "https://openalex.org/I110535807"
+      },
+      {
+        "count": 3,
+        "name": "Manitoba Hydro",
+        "lat": 49.8843994140625,
+        "lon": -97.14704132080078,
+        "id": "https://openalex.org/I33814908"
+      },
+      {
+        "count": 3,
+        "name": "Centennial College",
+        "lat": 43.70642852783203,
+        "lon": -79.39864349365234,
+        "id": "https://openalex.org/I201744698"
+      },
+      {
+        "count": 3,
+        "name": "Nova Scotia Hospital",
+        "lat": 44.65352249145508,
+        "lon": -63.54922103881836,
+        "id": "https://openalex.org/I2799291095"
+      },
+      {
+        "count": 3,
+        "name": "Honeywell (Canada)",
+        "lat": 43.54921340942383,
+        "lon": -79.7093505859375,
+        "id": "https://openalex.org/I4210154232"
+      },
+      {
+        "count": 3,
+        "name": "Kwantlen Polytechnic University",
+        "lat": 49.10634994506836,
+        "lon": -122.82508850097656,
+        "id": "https://openalex.org/I30108710"
+      },
+      {
+        "count": 3,
+        "name": "Institute of Population and Public Health",
+        "lat": 45.42565155029297,
+        "lon": -75.68737030029297,
+        "id": "https://openalex.org/I4210135674"
+      },
+      {
+        "count": 3,
+        "name": "Canadian Obesity Network",
+        "lat": 53.522586822509766,
+        "lon": -113.52090454101562,
+        "id": "https://openalex.org/I2802321989"
+      },
+      {
+        "count": 3,
+        "name": "The Quebec Population Health Research Network",
+        "lat": 45.53052520751953,
+        "lon": -73.62122344970703,
+        "id": "https://openalex.org/I4210103987"
+      },
+      {
+        "count": 3,
+        "name": "Nautilus Environmental",
+        "lat": 49.266361236572266,
+        "lon": -122.95262908935547,
+        "id": "https://openalex.org/I4210115510"
+      },
+      {
+        "count": 3,
+        "name": "Parkwood Institute",
+        "lat": 42.95554733276367,
+        "lon": -81.22571563720703,
+        "id": "https://openalex.org/I4210102853"
+      },
+      {
+        "count": 3,
+        "name": "Toronto Liver Centre",
+        "lat": 43.67728042602539,
+        "lon": -79.44296264648438,
+        "id": "https://openalex.org/I4210153409"
+      },
+      {
+        "count": 2,
+        "name": "Canadian Celiac Association",
+        "lat": 43.65691375732422,
+        "lon": -79.59849548339844,
+        "id": "https://openalex.org/I4210113824"
+      },
+      {
+        "count": 2,
+        "name": "Polytechnique Montr\u00e9al",
+        "lat": 45.50884,
+        "lon": -73.58781,
+        "id": "https://openalex.org/I45683168"
+      },
+      {
+        "count": 2,
+        "name": "Huawei Technologies (Canada)",
+        "lat": 43.8516731262207,
+        "lon": -79.36248779296875,
+        "id": "https://openalex.org/I4210115038"
+      },
+      {
+        "count": 2,
+        "name": "Skeena Fisheries Commission",
+        "lat": 55.392486572265625,
+        "lon": -127.67095184326172,
+        "id": "https://openalex.org/I4210091686"
+      },
+      {
+        "count": 2,
+        "name": "Canadian Hydrographic Service",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I1295100079"
+      },
+      {
+        "count": 2,
+        "name": "Artificial Intelligence in Medicine (Canada)",
+        "lat": 43.65040588378906,
+        "lon": -79.36351013183594,
+        "id": "https://openalex.org/I4210164862"
+      },
+      {
+        "count": 2,
+        "name": "Shell (Canada)",
+        "lat": 51.05010986328125,
+        "lon": -114.08528900146484,
+        "id": "https://openalex.org/I911422844"
+      },
+      {
+        "count": 2,
+        "name": "Institute for Christian Studies",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I3143791293"
+      },
+      {
+        "count": 2,
+        "name": "Golder Associates (Canada)",
+        "lat": 43.65791320800781,
+        "lon": -79.38629913330078,
+        "id": "https://openalex.org/I176446549"
+      },
+      {
+        "count": 2,
+        "name": "Department of National Defence",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I1336338359"
+      },
+      {
+        "count": 2,
+        "name": "Alberta Energy",
+        "lat": 53.53864669799805,
+        "lon": -113.50625610351562,
+        "id": "https://openalex.org/I2802568082"
+      },
+      {
+        "count": 2,
+        "name": "Trinity College",
+        "lat": 43.69962692260742,
+        "lon": -79.41015625,
+        "id": "https://openalex.org/I204442077"
+      },
+      {
+        "count": 2,
+        "name": "WSP (Canada)",
+        "lat": 45.50883865356445,
+        "lon": -73.58780670166016,
+        "id": "https://openalex.org/I929267784"
+      },
+      {
+        "count": 2,
+        "name": "Hitachi (Canada)",
+        "lat": 52.184730529785156,
+        "lon": -106.65476989746094,
+        "id": "https://openalex.org/I4210150617"
+      },
+      {
+        "count": 2,
+        "name": "BC Centre for Aquatic Health Sciences",
+        "lat": 50.02399826049805,
+        "lon": -125.23990631103516,
+        "id": "https://openalex.org/I4210093641"
+      },
+      {
+        "count": 2,
+        "name": "Neighbourhood Pharmacy Association of Canada",
+        "lat": 43.67176818847656,
+        "lon": -79.37772369384766,
+        "id": "https://openalex.org/I4210126589"
+      },
+      {
+        "count": 2,
+        "name": "Balsillie School of International Affairs",
+        "lat": 43.466800689697266,
+        "lon": -80.51638793945312,
+        "id": "https://openalex.org/I72352591"
+      },
+      {
+        "count": 2,
+        "name": "Centre Int\u00e9gr\u00e9 Universitaire de Sant\u00e9 et de Services Sociaux du Saguenay\u2013Lac-Saint-Jean",
+        "lat": 48.416751861572266,
+        "lon": -71.06572723388672,
+        "id": "https://openalex.org/I4210094787"
+      },
+      {
+        "count": 2,
+        "name": "BC Mental Health & Substance Use Services",
+        "lat": 49.24431610107422,
+        "lon": -123.12420654296875,
+        "id": "https://openalex.org/I4210123364"
+      },
+      {
+        "count": 2,
+        "name": "Alberta Conservation Association",
+        "lat": 53.5350341796875,
+        "lon": -113.32380676269531,
+        "id": "https://openalex.org/I4210126378"
+      },
+      {
+        "count": 2,
+        "name": "Selkirk College",
+        "lat": 49.32316970825195,
+        "lon": -117.65830993652344,
+        "id": "https://openalex.org/I861081372"
+      },
+      {
+        "count": 2,
+        "name": "Hand and Upper Limb Clinic",
+        "lat": 48.43800735473633,
+        "lon": -89.2150650024414,
+        "id": "https://openalex.org/I4210114399"
+      },
+      {
+        "count": 2,
+        "name": "Alberta Bible College",
+        "lat": 51.086090087890625,
+        "lon": -114.0891342163086,
+        "id": "https://openalex.org/I2801827850"
+      },
+      {
+        "count": 2,
+        "name": "Ontario College of Art and Design",
+        "lat": 43.70642852783203,
+        "lon": -79.39864349365234,
+        "id": "https://openalex.org/I74753095"
+      },
+      {
+        "count": 2,
+        "name": "North York General Hospital",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I2800061829"
+      },
+      {
+        "count": 2,
+        "name": "Global Affairs Canada",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I1307112335"
+      },
+      {
+        "count": 2,
+        "name": "Carbon Engineering (Canada)",
+        "lat": 49.688323974609375,
+        "lon": -123.1624755859375,
+        "id": "https://openalex.org/I4210149514"
+      },
+      {
+        "count": 2,
+        "name": "Canadian Institute for Advanced Research",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I109736498"
+      },
+      {
+        "count": 2,
+        "name": "Research Canada",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I4210099137"
+      },
+      {
+        "count": 2,
+        "name": "Arthritis Research Centre of Canada",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I4210148922"
+      },
+      {
+        "count": 2,
+        "name": "Systems, Applications & Products in Data Processing (Canada)",
+        "lat": 43.747005462646484,
+        "lon": -79.40875244140625,
+        "id": "https://openalex.org/I4210117871"
+      },
+      {
+        "count": 2,
+        "name": "Mental Health Research Canada",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I4210097782"
+      },
+      {
+        "count": 2,
+        "name": "Ontario Genomics",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I2802127592"
+      },
+      {
+        "count": 2,
+        "name": "Stantec (Canada)",
+        "lat": 53.54216384887695,
+        "lon": -113.51416015625,
+        "id": "https://openalex.org/I54324688"
+      },
+      {
+        "count": 2,
+        "name": "Coast Mountain College",
+        "lat": 54.51633834838867,
+        "lon": -128.60345458984375,
+        "id": "https://openalex.org/I3132154619"
+      },
+      {
+        "count": 2,
+        "name": "TD Bank Group",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I2802549117"
+      },
+      {
+        "count": 2,
+        "name": "Ministry of the Environment, Conservation and Parks",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I1288675226"
+      },
+      {
+        "count": 2,
+        "name": "World Federation of Science Journalists",
+        "lat": 45.50884,
+        "lon": -73.58781,
+        "id": "https://openalex.org/I4210099644"
+      },
+      {
+        "count": 2,
+        "name": "Gwich'in Council International",
+        "lat": 68.36109924316406,
+        "lon": -133.72862243652344,
+        "id": "https://openalex.org/I4210107148"
+      },
+      {
+        "count": 2,
+        "name": "Royal Canadian Navy",
+        "lat": 45.42092514038086,
+        "lon": -75.71029663085938,
+        "id": "https://openalex.org/I2801016480"
+      },
+      {
+        "count": 2,
+        "name": "Canadian Medical Association",
+        "lat": 45.399288177490234,
+        "lon": -75.6617431640625,
+        "id": "https://openalex.org/I150274313"
+      },
+      {
+        "count": 2,
+        "name": "St. Joseph\u2019s Healthcare Hamilton",
+        "lat": 43.2501106262207,
+        "lon": -79.8496322631836,
+        "id": "https://openalex.org/I59293822"
+      },
+      {
+        "count": 2,
+        "name": "Government of Ontario",
+        "lat": 43.70642852783203,
+        "lon": -79.39864349365234,
+        "id": "https://openalex.org/I4210101045"
+      },
+      {
+        "count": 2,
+        "name": "Redeemer University College",
+        "lat": 43.21806,
+        "lon": -79.98716,
+        "id": "https://openalex.org/I177485205"
+      },
+      {
+        "count": 2,
+        "name": "ArcticNet",
+        "lat": 46.812278747558594,
+        "lon": -71.21453857421875,
+        "id": "https://openalex.org/I4210108324"
+      },
+      {
+        "count": 2,
+        "name": "Canadian Association of Occupational Therapists",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I4210101012"
+      },
+      {
+        "count": 2,
+        "name": "Future Earth",
+        "lat": 45.50884,
+        "lon": -73.58781,
+        "id": "https://openalex.org/I4210139347"
+      },
+      {
+        "count": 2,
+        "name": "Read Jones Christoffersen (Canada)",
+        "lat": 49.263710021972656,
+        "lon": -123.13359832763672,
+        "id": "https://openalex.org/I4210124219"
+      },
+      {
+        "count": 2,
+        "name": "Manitoba Beekeepers' Association",
+        "lat": 49.803504943847656,
+        "lon": -97.138916015625,
+        "id": "https://openalex.org/I4210135057"
+      },
+      {
+        "count": 2,
+        "name": "William Osler Health System",
+        "lat": 43.748844146728516,
+        "lon": -79.74414825439453,
+        "id": "https://openalex.org/I4210129503"
+      },
+      {
+        "count": 2,
+        "name": "Hamilton Health Sciences",
+        "lat": 43.2501106262207,
+        "lon": -79.8496322631836,
+        "id": "https://openalex.org/I76442945"
+      },
+      {
+        "count": 2,
+        "name": "Assembly of Manitoba Chiefs",
+        "lat": 49.89469528198242,
+        "lon": -97.14209747314453,
+        "id": "https://openalex.org/I4210114718"
+      },
+      {
+        "count": 2,
+        "name": "Ottawa Regional Cancer Foundation",
+        "lat": 45.410804748535156,
+        "lon": -75.65680694580078,
+        "id": "https://openalex.org/I4210112220"
+      },
+      {
+        "count": 2,
+        "name": "Canadian Association for Theatre Research",
+        "lat": 43.71259689331055,
+        "lon": -79.39366912841797,
+        "id": "https://openalex.org/I4210135932"
+      },
+      {
+        "count": 2,
+        "name": "Ministry of Environment",
+        "lat": 48.423744201660156,
+        "lon": -123.35517120361328,
+        "id": "https://openalex.org/I4210087158"
+      },
+      {
+        "count": 2,
+        "name": "Canadian Institute for Health Information",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I152658341"
+      },
+      {
+        "count": 2,
+        "name": "Child, Adolescent and Family Mental Health",
+        "lat": 53.53939437866211,
+        "lon": -113.5079345703125,
+        "id": "https://openalex.org/I4210132117"
+      },
+      {
+        "count": 2,
+        "name": "Fowler Kennedy Sport Medicine Clinic",
+        "lat": 42.98339,
+        "lon": -81.23304,
+        "id": "https://openalex.org/I4210129194"
+      },
+      {
+        "count": 2,
+        "name": "Saskatchewan Health",
+        "lat": 50.45008,
+        "lon": -104.6178,
+        "id": "https://openalex.org/I2799377091"
+      },
+      {
+        "count": 2,
+        "name": "Vector Institute",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I4210127509"
+      },
+      {
+        "count": 2,
+        "name": "Calgary Laboratory Services",
+        "lat": 51.088722229003906,
+        "lon": -114.15788269042969,
+        "id": "https://openalex.org/I4210092646"
+      },
+      {
+        "count": 2,
+        "name": "Geoscience BC",
+        "lat": 49.20708084106445,
+        "lon": -123.12373352050781,
+        "id": "https://openalex.org/I4210089520"
+      },
+      {
+        "count": 2,
+        "name": "Vancouver Biotech (Canada)",
+        "lat": 49.20305252075195,
+        "lon": -123.12669372558594,
+        "id": "https://openalex.org/I4210115163"
+      },
+      {
+        "count": 2,
+        "name": "Alberta Biodiversity Monitoring Institute",
+        "lat": 53.551387786865234,
+        "lon": -113.49549865722656,
+        "id": "https://openalex.org/I4210093491"
+      },
+      {
+        "count": 2,
+        "name": "Beef Farmers of Ontario",
+        "lat": 43.54594039916992,
+        "lon": -80.25598907470703,
+        "id": "https://openalex.org/I4210125706"
+      },
+      {
+        "count": 2,
+        "name": "Nova Scotia Department of Health and Wellness",
+        "lat": 44.6497802734375,
+        "lon": -63.57500076293945,
+        "id": "https://openalex.org/I4210103444"
+      },
+      {
+        "count": 2,
+        "name": "Centre de G\u00e9omatique du Qu\u00e9bec",
+        "lat": 48.41675,
+        "lon": -71.06573,
+        "id": "https://openalex.org/I4210142548"
+      },
+      {
+        "count": 2,
+        "name": "Professional Engineers Ontario",
+        "lat": 43.76139831542969,
+        "lon": -79.4233169555664,
+        "id": "https://openalex.org/I2800043112"
+      },
+      {
+        "count": 2,
+        "name": "Mental Health Commission of Canada",
+        "lat": 45.41831588745117,
+        "lon": -75.70307922363281,
+        "id": "https://openalex.org/I2802388125"
+      },
+      {
+        "count": 2,
+        "name": "Canadian Armed Forces",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I2799797123"
+      },
+      {
+        "count": 2,
+        "name": "Nunavut Research Institute",
+        "lat": 63.746971130371094,
+        "lon": -68.51727294921875,
+        "id": "https://openalex.org/I4210102892"
+      },
+      {
+        "count": 2,
+        "name": "CARE Canada",
+        "lat": 45.336326599121094,
+        "lon": -75.70150756835938,
+        "id": "https://openalex.org/I4210104282"
+      },
+      {
+        "count": 2,
+        "name": "Government of Newfoundland and Labrador",
+        "lat": 47.56494140625,
+        "lon": -52.70930862426758,
+        "id": "https://openalex.org/I2802685132"
+      },
+      {
+        "count": 2,
+        "name": "Rick Hansen Foundation",
+        "lat": 49.17002868652344,
+        "lon": -123.13683319091797,
+        "id": "https://openalex.org/I4210147518"
+      },
+      {
+        "count": 2,
+        "name": "Alberta Bone and Joint Health Institute",
+        "lat": 51.06645584106445,
+        "lon": -114.13624572753906,
+        "id": "https://openalex.org/I4210121880"
+      },
+      {
+        "count": 2,
+        "name": "Centre Integre de Sante et de Services Sociaux de Laval",
+        "lat": 45.569950103759766,
+        "lon": -73.69200134277344,
+        "id": "https://openalex.org/I4210119877"
+      },
+      {
+        "count": 2,
+        "name": "Magellan Aerospace (Canada)",
+        "lat": 43.706809997558594,
+        "lon": -79.63581848144531,
+        "id": "https://openalex.org/I2802010469"
+      },
+      {
+        "count": 2,
+        "name": "Greo",
+        "lat": 43.54594039916992,
+        "lon": -80.25598907470703,
+        "id": "https://openalex.org/I4210139995"
+      },
+      {
+        "count": 2,
+        "name": "H\u00f4pital Maisonneuve-Rosemont",
+        "lat": 45.50883865356445,
+        "lon": -73.58780670166016,
+        "id": "https://openalex.org/I29045822"
+      },
+      {
+        "count": 2,
+        "name": "Juvenile Diabetes Research Foundation",
+        "lat": 43.70102310180664,
+        "lon": -79.40006256103516,
+        "id": "https://openalex.org/I1285194536"
+      },
+      {
+        "count": 2,
+        "name": "Innovative Medicines Canada",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I4210099927"
+      },
+      {
+        "count": 2,
+        "name": "Huron Technologies (Canada)",
+        "lat": 43.49340057373047,
+        "lon": -80.54248809814453,
+        "id": "https://openalex.org/I4210100025"
+      },
+      {
+        "count": 2,
+        "name": "Children's & Women's Health Centre of British Columbia",
+        "lat": 49.24455642700195,
+        "lon": -123.12545776367188,
+        "id": "https://openalex.org/I4210121225"
+      },
+      {
+        "count": 2,
+        "name": "Future Vehicle Technologies (Canada)",
+        "lat": 49.211181640625,
+        "lon": -122.65985107421875,
+        "id": "https://openalex.org/I4210145495"
+      },
+      {
+        "count": 2,
+        "name": "Alberta Cancer Foundation",
+        "lat": 53.542240142822266,
+        "lon": -113.48812866210938,
+        "id": "https://openalex.org/I4210116778"
+      },
+      {
+        "count": 2,
+        "name": "Compute Canada",
+        "lat": 43.70642852783203,
+        "lon": -79.39864349365234,
+        "id": "https://openalex.org/I4210146444"
+      },
+      {
+        "count": 2,
+        "name": "Government of Manitoba",
+        "lat": 49.89353561401367,
+        "lon": -97.13972473144531,
+        "id": "https://openalex.org/I4210160690"
+      },
+      {
+        "count": 2,
+        "name": "Toronto Dementia Research Alliance",
+        "lat": 43.72311782836914,
+        "lon": -79.37813568115234,
+        "id": "https://openalex.org/I4210092891"
+      },
+      {
+        "count": 1,
+        "name": "Library and Archives Canada",
+        "lat": 45.42021942138672,
+        "lon": -75.70785522460938,
+        "id": "https://openalex.org/I1286141780"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Library Association",
+        "lat": 45.34455108642578,
+        "lon": -75.79730987548828,
+        "id": "https://openalex.org/I2801008851"
+      },
+      {
+        "count": 1,
+        "name": "Science North",
+        "lat": 46.47166061401367,
+        "lon": -80.996337890625,
+        "id": "https://openalex.org/I2802805919"
+      },
+      {
+        "count": 1,
+        "name": "Seneca Polytechnic",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I61412661"
+      },
+      {
+        "count": 1,
+        "name": "Universit\u00e9 de Moncton",
+        "lat": 46.094539642333984,
+        "lon": -64.79650115966797,
+        "id": "https://openalex.org/I154799132"
+      },
+      {
+        "count": 1,
+        "name": "Workers Compensation Board of British Columbia",
+        "lat": 49.17107391357422,
+        "lon": -123.14912414550781,
+        "id": "https://openalex.org/I2800580567"
+      },
+      {
+        "count": 1,
+        "name": "Nova Scotia Department of Agriculture",
+        "lat": 44.64734649658203,
+        "lon": -63.57656478881836,
+        "id": "https://openalex.org/I4210109854"
+      },
+      {
+        "count": 1,
+        "name": "CNIB Foundation",
+        "lat": 43.70642852783203,
+        "lon": -79.39864349365234,
+        "id": "https://openalex.org/I2802586913"
+      },
+      {
+        "count": 1,
+        "name": "M\u00e9tis National Council",
+        "lat": 45.41536331176758,
+        "lon": -75.69469451904297,
+        "id": "https://openalex.org/I4210109860"
+      },
+      {
+        "count": 1,
+        "name": "Canada Auto Workers",
+        "lat": 43.4100456237793,
+        "lon": -80.46106719970703,
+        "id": "https://openalex.org/I302974498"
+      },
+      {
+        "count": 1,
+        "name": "College of Family Physicians of Canada",
+        "lat": 43.6584358215332,
+        "lon": -79.59725952148438,
+        "id": "https://openalex.org/I336106212"
+      },
+      {
+        "count": 1,
+        "name": "Makivik Corporation",
+        "lat": 58.45515060424805,
+        "lon": -78.10511779785156,
+        "id": "https://openalex.org/I2800651190"
+      },
+      {
+        "count": 1,
+        "name": "Cascades (Canada)",
+        "lat": 45.858646392822266,
+        "lon": -72.07427978515625,
+        "id": "https://openalex.org/I2801138614"
+      },
+      {
+        "count": 1,
+        "name": "Innovative Targeting Solutions (Canada)",
+        "lat": 49.24897384643555,
+        "lon": -122.99860382080078,
+        "id": "https://openalex.org/I4210095430"
+      },
+      {
+        "count": 1,
+        "name": "Centre Int\u00e9gr\u00e9 de Sant\u00e9 et de Services Sociaux des Laurentides",
+        "lat": 45.762168884277344,
+        "lon": -73.99398803710938,
+        "id": "https://openalex.org/I4210145954"
+      },
+      {
+        "count": 1,
+        "name": "Southlake Regional Health Center",
+        "lat": 44.06055450439453,
+        "lon": -79.45305633544922,
+        "id": "https://openalex.org/I2802289008"
+      },
+      {
+        "count": 1,
+        "name": "Pacific Insight Electronics (Canada)",
+        "lat": 49.4974365234375,
+        "lon": -117.360107421875,
+        "id": "https://openalex.org/I4210119084"
+      },
+      {
+        "count": 1,
+        "name": "GDG Environnement",
+        "lat": 46.37484359741211,
+        "lon": -72.52986145019531,
+        "id": "https://openalex.org/I4210150296"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Asian Studies Association",
+        "lat": 48.4316291809082,
+        "lon": -123.36285400390625,
+        "id": "https://openalex.org/I4210129394"
+      },
+      {
+        "count": 1,
+        "name": "Kensington Health",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I4210123971"
+      },
+      {
+        "count": 1,
+        "name": "Good Samaritan Society",
+        "lat": 53.52395248413086,
+        "lon": -113.44247436523438,
+        "id": "https://openalex.org/I2802516007"
+      },
+      {
+        "count": 1,
+        "name": "McMaster University Medical Centre",
+        "lat": 43.2593994140625,
+        "lon": -79.9175033569336,
+        "id": "https://openalex.org/I2801259263"
+      },
+      {
+        "count": 1,
+        "name": "King's University College",
+        "lat": 53.55014,
+        "lon": -113.46871,
+        "id": "https://openalex.org/I61614213"
+      },
+      {
+        "count": 1,
+        "name": "Air Canada",
+        "lat": 45.47209930419922,
+        "lon": -73.73677825927734,
+        "id": "https://openalex.org/I1317029613"
+      },
+      {
+        "count": 1,
+        "name": "Alberta Health",
+        "lat": 53.60630798339844,
+        "lon": -113.48338317871094,
+        "id": "https://openalex.org/I4210139508"
+      },
+      {
+        "count": 1,
+        "name": "Prince Albert Grand Council",
+        "lat": 53.1939582824707,
+        "lon": -105.78018188476562,
+        "id": "https://openalex.org/I2799763961"
+      },
+      {
+        "count": 1,
+        "name": "Government of Saskatchewan",
+        "lat": 50.63693618774414,
+        "lon": -104.601806640625,
+        "id": "https://openalex.org/I4210143365"
+      },
+      {
+        "count": 1,
+        "name": "BC Innovation Council",
+        "lat": 49.28689193725586,
+        "lon": -123.12520599365234,
+        "id": "https://openalex.org/I4210166590"
+      },
+      {
+        "count": 1,
+        "name": "Squamish Nation",
+        "lat": 49.19089889526367,
+        "lon": -123.04229736328125,
+        "id": "https://openalex.org/I2800446563"
+      },
+      {
+        "count": 1,
+        "name": "Women's and Gender Studies et Recherches F\u00e9ministes",
+        "lat": 43.77357864379883,
+        "lon": -79.50221252441406,
+        "id": "https://openalex.org/I4210112977"
+      },
+      {
+        "count": 1,
+        "name": "Coalition for Research in Women's Health",
+        "lat": 43.66053771972656,
+        "lon": -79.38607788085938,
+        "id": "https://openalex.org/I4210103436"
+      },
+      {
+        "count": 1,
+        "name": "McMaster Children's Hospital",
+        "lat": 43.258888244628906,
+        "lon": -79.9183349609375,
+        "id": "https://openalex.org/I2801880889"
+      },
+      {
+        "count": 1,
+        "name": "Montreal Children's Hospital",
+        "lat": 45.4887809753418,
+        "lon": -73.58209228515625,
+        "id": "https://openalex.org/I2799950917"
+      },
+      {
+        "count": 1,
+        "name": "Royal Victoria Hospital",
+        "lat": 45.50883865356445,
+        "lon": -73.58780670166016,
+        "id": "https://openalex.org/I4210088756"
+      },
+      {
+        "count": 1,
+        "name": "Regina General Hospital",
+        "lat": 50.443519592285156,
+        "lon": -104.60114288330078,
+        "id": "https://openalex.org/I4210118251"
+      },
+      {
+        "count": 1,
+        "name": "Kingston General Hospital",
+        "lat": 44.22426986694336,
+        "lon": -76.49259948730469,
+        "id": "https://openalex.org/I2800753926"
+      },
+      {
+        "count": 1,
+        "name": "Windsor Regional Hospital",
+        "lat": 42.282005310058594,
+        "lon": -83.06392669677734,
+        "id": "https://openalex.org/I4210093451"
+      },
+      {
+        "count": 1,
+        "name": "Moncton Hospital",
+        "lat": 46.10540008544922,
+        "lon": -64.80509948730469,
+        "id": "https://openalex.org/I2799577643"
+      },
+      {
+        "count": 1,
+        "name": "Dr. Everett Chalmers Regional Hospital",
+        "lat": 45.939002990722656,
+        "lon": -66.65446472167969,
+        "id": "https://openalex.org/I2799327077"
+      },
+      {
+        "count": 1,
+        "name": "BC Hydro (Canada)",
+        "lat": 49.28281021118164,
+        "lon": -123.11268615722656,
+        "id": "https://openalex.org/I118189293"
+      },
+      {
+        "count": 1,
+        "name": "GF Strong Rehabilitation Centre",
+        "lat": 49.247222900390625,
+        "lon": -123.1258316040039,
+        "id": "https://openalex.org/I2802443542"
+      },
+      {
+        "count": 1,
+        "name": "St. Mary's University",
+        "lat": 51.05011,
+        "lon": -114.08529,
+        "id": "https://openalex.org/I4210163729"
+      },
+      {
+        "count": 1,
+        "name": "World Wildlife Fund Canada",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I288498992"
+      },
+      {
+        "count": 1,
+        "name": "Pacific Institute for the Mathematical Sciences",
+        "lat": 49.26796340942383,
+        "lon": -123.25322723388672,
+        "id": "https://openalex.org/I2802850869"
+      },
+      {
+        "count": 1,
+        "name": "Toronto Public Health",
+        "lat": 43.656532287597656,
+        "lon": -79.37937927246094,
+        "id": "https://openalex.org/I184430034"
+      },
+      {
+        "count": 1,
+        "name": "Health PEI",
+        "lat": 46.254695892333984,
+        "lon": -63.10113525390625,
+        "id": "https://openalex.org/I4210165879"
+      },
+      {
+        "count": 1,
+        "name": "Royal Military College of Canada",
+        "lat": 44.229759216308594,
+        "lon": -76.4809799194336,
+        "id": "https://openalex.org/I51768193"
+      },
+      {
+        "count": 1,
+        "name": "Autodesk (Canada)",
+        "lat": 45.495296478271484,
+        "lon": -73.55319213867188,
+        "id": "https://openalex.org/I4210103820"
+      },
+      {
+        "count": 1,
+        "name": "First Nations Health and Social Secretariat of Manitoba",
+        "lat": 49.89463806152344,
+        "lon": -97.14224243164062,
+        "id": "https://openalex.org/I4210150044"
+      },
+      {
+        "count": 1,
+        "name": "St Joseph's Health Care",
+        "lat": 42.98339,
+        "lon": -81.23304,
+        "id": "https://openalex.org/I4210151658"
+      },
+      {
+        "count": 1,
+        "name": "Medicine Hat College",
+        "lat": 50.03928,
+        "lon": -110.67661,
+        "id": "https://openalex.org/I80581542"
+      },
+      {
+        "count": 1,
+        "name": "Transport Canada",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I1334704838"
+      },
+      {
+        "count": 1,
+        "name": "Brampton Civic Hospital",
+        "lat": 43.747169494628906,
+        "lon": -79.7437744140625,
+        "id": "https://openalex.org/I2801431887"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Breast Cancer Network",
+        "lat": 45.41728591918945,
+        "lon": -75.69463348388672,
+        "id": "https://openalex.org/I4210152371"
+      },
+      {
+        "count": 1,
+        "name": "Research Institute for Aging",
+        "lat": 43.4668,
+        "lon": -80.51639,
+        "id": "https://openalex.org/I4210144924"
+      },
+      {
+        "count": 1,
+        "name": "The Metabolomics Innovation Centre",
+        "lat": 53.523216247558594,
+        "lon": -113.52616882324219,
+        "id": "https://openalex.org/I4210137809"
+      },
+      {
+        "count": 1,
+        "name": "SAIT Polytechnic",
+        "lat": 51.05010986328125,
+        "lon": -114.08528900146484,
+        "id": "https://openalex.org/I153555950"
+      },
+      {
+        "count": 1,
+        "name": "Pembina Institute",
+        "lat": 51.05424118041992,
+        "lon": -114.10580444335938,
+        "id": "https://openalex.org/I1297381477"
+      },
+      {
+        "count": 1,
+        "name": "Arctic Borderlands Ecological Knowledge Society",
+        "lat": 60.72499084472656,
+        "lon": -135.0585174560547,
+        "id": "https://openalex.org/I4210122647"
+      },
+      {
+        "count": 1,
+        "name": "Government of New Brunswick",
+        "lat": 45.95846939086914,
+        "lon": -66.64835357666016,
+        "id": "https://openalex.org/I2801726813"
+      },
+      {
+        "count": 1,
+        "name": "Canada Council for the Arts",
+        "lat": 45.42045974731445,
+        "lon": -75.6930160522461,
+        "id": "https://openalex.org/I2802692425"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Council of Professional Engineers",
+        "lat": 45.422203063964844,
+        "lon": -75.69600677490234,
+        "id": "https://openalex.org/I2802740662"
+      },
+      {
+        "count": 1,
+        "name": "Nine Circles Community Health Centre",
+        "lat": 49.88699722290039,
+        "lon": -97.16020965576172,
+        "id": "https://openalex.org/I4210099260"
+      },
+      {
+        "count": 1,
+        "name": "Royal Columbian Hospital",
+        "lat": 49.22707748413086,
+        "lon": -122.89167785644531,
+        "id": "https://openalex.org/I13328022"
+      },
+      {
+        "count": 1,
+        "name": "H\u00f4pital du Sacr\u00e9-C\u0153ur de Montr\u00e9al",
+        "lat": 45.50883865356445,
+        "lon": -73.58780670166016,
+        "id": "https://openalex.org/I4210141135"
+      },
+      {
+        "count": 1,
+        "name": "Prairie Bible Institute",
+        "lat": 51.70800018310547,
+        "lon": -113.26624298095703,
+        "id": "https://openalex.org/I2800794643"
+      },
+      {
+        "count": 1,
+        "name": "Saskatoon City Hospital",
+        "lat": 52.136226654052734,
+        "lon": -106.6532974243164,
+        "id": "https://openalex.org/I2799941903"
+      },
+      {
+        "count": 1,
+        "name": "H\u00f4pital de l'Enfant-J\u00e9sus",
+        "lat": 46.81228,
+        "lon": -71.21454,
+        "id": "https://openalex.org/I4210133239"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Institutes of Health Research",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I176337269"
+      },
+      {
+        "count": 1,
+        "name": "Stemcell Technologies",
+        "lat": 49.271175384521484,
+        "lon": -123.0981216430664,
+        "id": "https://openalex.org/I2801388136"
+      },
+      {
+        "count": 1,
+        "name": "Toronto General Hospital",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I2801845744"
+      },
+      {
+        "count": 1,
+        "name": "Canada Malting (Canada)",
+        "lat": 51.02579879760742,
+        "lon": -114.0245590209961,
+        "id": "https://openalex.org/I4210113220"
+      },
+      {
+        "count": 1,
+        "name": "St. Thomas University",
+        "lat": 45.945411682128906,
+        "lon": -66.66558074951172,
+        "id": "https://openalex.org/I235120680"
+      },
+      {
+        "count": 1,
+        "name": "H\u00f4pital Louis-H Lafontaine",
+        "lat": 45.50884,
+        "lon": -73.58781,
+        "id": "https://openalex.org/I4210130461"
+      },
+      {
+        "count": 1,
+        "name": "Atlantic Industries (Canada)",
+        "lat": 45.875343322753906,
+        "lon": -64.53120422363281,
+        "id": "https://openalex.org/I4210138960"
+      },
+      {
+        "count": 1,
+        "name": "Manitoba Health",
+        "lat": 49.89360809326172,
+        "lon": -97.14680480957031,
+        "id": "https://openalex.org/I121800195"
+      },
+      {
+        "count": 1,
+        "name": "George & Fay Yee Centre for Healthcare Innovation",
+        "lat": 49.903846740722656,
+        "lon": -97.16146087646484,
+        "id": "https://openalex.org/I4210098764"
+      },
+      {
+        "count": 1,
+        "name": "Children's Hospital Research Institute of Manitoba",
+        "lat": 49.8843994140625,
+        "lon": -97.14704132080078,
+        "id": "https://openalex.org/I4210091102"
+      },
+      {
+        "count": 1,
+        "name": "Ontario Shores Centre for Mental Health Sciences",
+        "lat": 43.90011978149414,
+        "lon": -78.84957122802734,
+        "id": "https://openalex.org/I2802285097"
+      },
+      {
+        "count": 1,
+        "name": "Toronto Zoo",
+        "lat": 43.82027816772461,
+        "lon": -79.18277740478516,
+        "id": "https://openalex.org/I4210140935"
+      },
+      {
+        "count": 1,
+        "name": "Ministry of Natural Resources and Wildlife",
+        "lat": 46.8480110168457,
+        "lon": -71.25360107421875,
+        "id": "https://openalex.org/I4210135165"
+      },
+      {
+        "count": 1,
+        "name": "Canon (Canada)",
+        "lat": 43.77091598510742,
+        "lon": -79.41240692138672,
+        "id": "https://openalex.org/I4210157163"
+      },
+      {
+        "count": 1,
+        "name": "Esri (Canada)",
+        "lat": 43.73029708862305,
+        "lon": -79.32866668701172,
+        "id": "https://openalex.org/I2802776861"
+      },
+      {
+        "count": 1,
+        "name": "Social Sciences and Humanities Research Council",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I98734588"
+      },
+      {
+        "count": 1,
+        "name": "Community Sector Council Newfoundland and Labrador",
+        "lat": 47.56536865234375,
+        "lon": -52.73590087890625,
+        "id": "https://openalex.org/I4210112300"
+      },
+      {
+        "count": 1,
+        "name": "Vancouver Infectious Diseases Centre",
+        "lat": 49.27936553955078,
+        "lon": -123.12904357910156,
+        "id": "https://openalex.org/I4210100817"
+      },
+      {
+        "count": 1,
+        "name": "Child and Family Research Institute",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "id": "https://openalex.org/I4210162161"
+      },
+      {
+        "count": 1,
+        "name": "Columbia Bible College",
+        "lat": 49.05525207519531,
+        "lon": -122.33763885498047,
+        "id": "https://openalex.org/I2800277717"
+      },
+      {
+        "count": 1,
+        "name": "Fraser Institute",
+        "lat": 49.27006912231445,
+        "lon": -123.14519500732422,
+        "id": "https://openalex.org/I220249241"
+      },
+      {
+        "count": 1,
+        "name": "Ministry of Transportation of Ontario",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I1280525279"
+      },
+      {
+        "count": 1,
+        "name": "The Society of Obstetricians and Gynaecologists of Canada",
+        "lat": 45.395286560058594,
+        "lon": -75.6047134399414,
+        "id": "https://openalex.org/I4210159032"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Rheumatology Association",
+        "lat": 44.05010986328125,
+        "lon": -79.46630859375,
+        "id": "https://openalex.org/I4210087597"
+      },
+      {
+        "count": 1,
+        "name": "Communications Research Centre Canada",
+        "lat": 45.34629821777344,
+        "lon": -75.88410186767578,
+        "id": "https://openalex.org/I4210151552"
+      },
+      {
+        "count": 1,
+        "name": "\u00c9cole Nationale d'Administration Publique",
+        "lat": 46.812278747558594,
+        "lon": -71.21453857421875,
+        "id": "https://openalex.org/I31571312"
+      },
+      {
+        "count": 1,
+        "name": "Fulbright Canada",
+        "lat": 45.41838455200195,
+        "lon": -75.70286560058594,
+        "id": "https://openalex.org/I4210128704"
+      },
+      {
+        "count": 1,
+        "name": "Humber College",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I181942792"
+      },
+      {
+        "count": 1,
+        "name": "IGNIS Innovation (Canada)",
+        "lat": 43.50737380981445,
+        "lon": -80.53865051269531,
+        "id": "https://openalex.org/I4210146856"
+      },
+      {
+        "count": 1,
+        "name": "Calgary General Hospital",
+        "lat": 51.08597183227539,
+        "lon": -113.9874496459961,
+        "id": "https://openalex.org/I2802900219"
+      },
+      {
+        "count": 1,
+        "name": "QLT (Canada)",
+        "lat": 49.28790283203125,
+        "lon": -122.6890640258789,
+        "id": "https://openalex.org/I4210143237"
+      },
+      {
+        "count": 1,
+        "name": "Institute of Cancer Research",
+        "lat": 51.066715240478516,
+        "lon": -114.13350677490234,
+        "id": "https://openalex.org/I4210090991"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Association for Health Services and Policy Research",
+        "lat": 49.26210403442383,
+        "lon": -123.24691009521484,
+        "id": "https://openalex.org/I4210166708"
+      },
+      {
+        "count": 1,
+        "name": "Statistics Canada",
+        "lat": 45.40617752075195,
+        "lon": -75.73410034179688,
+        "id": "https://openalex.org/I1319815248"
+      },
+      {
+        "count": 1,
+        "name": "Ottawa Baffin Nunavut Health Services",
+        "lat": 45.401580810546875,
+        "lon": -75.62496948242188,
+        "id": "https://openalex.org/I4210106416"
+      },
+      {
+        "count": 1,
+        "name": "Research Institute in Oncology and Hematology",
+        "lat": 49.9030647277832,
+        "lon": -97.1583251953125,
+        "id": "https://openalex.org/I4210166742"
+      },
+      {
+        "count": 1,
+        "name": "Institute of Health Services and Policy Research",
+        "lat": 45.50440216064453,
+        "lon": -73.57998657226562,
+        "id": "https://openalex.org/I4210090077"
+      },
+      {
+        "count": 1,
+        "name": "Minist\u00e8re de l\u2019Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs",
+        "lat": 46.81228,
+        "lon": -71.21454,
+        "id": "https://openalex.org/I4387152253"
+      },
+      {
+        "count": 1,
+        "name": "Universit\u00e9 T\u00c9LUQ",
+        "lat": 46.812278747558594,
+        "lon": -71.21453857421875,
+        "id": "https://openalex.org/I200745827"
+      },
+      {
+        "count": 1,
+        "name": "Institute of Infection and Immunity",
+        "lat": 46.769474029541016,
+        "lon": -71.28279876708984,
+        "id": "https://openalex.org/I4210165024"
+      },
+      {
+        "count": 1,
+        "name": "Ministry of Education and Child Care",
+        "lat": 48.4359016418457,
+        "lon": -123.35154724121094,
+        "id": "https://openalex.org/I4210164447"
+      },
+      {
+        "count": 1,
+        "name": "Merck Canada Inc. (Canada)",
+        "lat": 45.45008087158203,
+        "lon": -73.86585998535156,
+        "id": "https://openalex.org/I4210095507"
+      },
+      {
+        "count": 1,
+        "name": "Ministry of Health and Long Term Care",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "id": "https://openalex.org/I1321360390"
+      },
+      {
+        "count": 1,
+        "name": "Native Mental Health Association of Canada",
+        "lat": 49.15773010253906,
+        "lon": -121.94911193847656,
+        "id": "https://openalex.org/I4210166597"
+      },
+      {
+        "count": 1,
+        "name": "Nunavut Arctic College",
+        "lat": 63.746971130371094,
+        "lon": -68.51727294921875,
+        "id": "https://openalex.org/I3130739676"
+      },
+      {
+        "count": 1,
+        "name": "Diabetes Canada",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I4210091383"
+      },
+      {
+        "count": 1,
+        "name": "Saskatchewan Health Quality Council",
+        "lat": 52.142059326171875,
+        "lon": -106.6286392211914,
+        "id": "https://openalex.org/I4210126899"
+      },
+      {
+        "count": 1,
+        "name": "Okanagan Science Centre",
+        "lat": 50.26081466674805,
+        "lon": -119.27051544189453,
+        "id": "https://openalex.org/I4210095111"
+      },
+      {
+        "count": 1,
+        "name": "Atomic Energy (Canada)",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I69816183"
+      },
+      {
+        "count": 1,
+        "name": "Bank of Canada",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "id": "https://openalex.org/I898769471"
+      },
+      {
+        "count": 1,
+        "name": "Agriculture Food and Rural Development",
+        "lat": 49.43476104736328,
+        "lon": -96.96858978271484,
+        "id": "https://openalex.org/I22513696"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Natural Resources",
+        "lat": 51.04533767700195,
+        "lon": -114.0692367553711,
+        "id": "https://openalex.org/I247776828"
+      },
+      {
+        "count": 1,
+        "name": "Greenfield Research (Canada)",
+        "lat": 44.666603088378906,
+        "lon": -63.63897705078125,
+        "id": "https://openalex.org/I4210117869"
+      },
+      {
+        "count": 1,
+        "name": "Centre for Community Based Research",
+        "lat": 43.45085144042969,
+        "lon": -80.49072265625,
+        "id": "https://openalex.org/I4210128434"
+      },
+      {
+        "count": 1,
+        "name": "Technical University of Nova Scotia",
+        "lat": 44.636592864990234,
+        "lon": -63.5916862487793,
+        "id": "https://openalex.org/I159737604"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Mental Health Association",
+        "lat": 45.38801956176758,
+        "lon": -75.6753921508789,
+        "id": "https://openalex.org/I2799540639"
+      },
+      {
+        "count": 1,
+        "name": "Dr. Georges-L.-Dumont University Hospital Centre",
+        "lat": 46.09807586669922,
+        "lon": -64.78729248046875,
+        "id": "https://openalex.org/I4210153374"
+      },
+      {
+        "count": 1,
+        "name": "Bell (Canada)",
+        "lat": 45.50883865356445,
+        "lon": -73.58780670166016,
+        "id": "https://openalex.org/I176714629"
+      },
+      {
+        "count": 1,
+        "name": "Humber River Regional Hospital",
+        "lat": 43.72431564331055,
+        "lon": -79.48828887939453,
+        "id": "https://openalex.org/I2802752716"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Partnership Against Cancer",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I2800333529"
+      },
+      {
+        "count": 1,
+        "name": "HIV Legal Network",
+        "lat": 43.700111389160156,
+        "lon": -79.41629791259766,
+        "id": "https://openalex.org/I48245848"
+      },
+      {
+        "count": 1,
+        "name": "University of King's College",
+        "lat": 44.646400451660156,
+        "lon": -63.57291030883789,
+        "id": "https://openalex.org/I114947406"
+      },
+      {
+        "count": 1,
+        "name": "Fields Institute for Research in Mathematical Sciences",
+        "lat": 43.65884017944336,
+        "lon": -79.39736938476562,
+        "id": "https://openalex.org/I9267121"
+      },
+      {
+        "count": 1,
+        "name": "Dassault Syst\u00e8mes (Canada)",
+        "lat": 45.50279235839844,
+        "lon": -73.56035614013672,
+        "id": "https://openalex.org/I4210162415"
+      },
+      {
+        "count": 1,
+        "name": "Centre int\u00e9gr\u00e9 de sant\u00e9 et de services sociaux de Chaudi\u00e8re-Appalaches",
+        "lat": 46.75818,
+        "lon": -71.23921,
+        "id": "https://openalex.org/I4210146563"
+      },
+      {
+        "count": 1,
+        "name": "Credit Valley Hospital",
+        "lat": 43.558998107910156,
+        "lon": -79.7030029296875,
+        "id": "https://openalex.org/I2802512917"
+      },
+      {
+        "count": 1,
+        "name": "Cumulative Environmental Management Association",
+        "lat": 56.72868728637695,
+        "lon": -111.3844223022461,
+        "id": "https://openalex.org/I4210086743"
+      },
+      {
+        "count": 1,
+        "name": "SST Wireless (Canada)",
+        "lat": 49.12976837158203,
+        "lon": -123.02204895019531,
+        "id": "https://openalex.org/I4210157545"
+      },
+      {
+        "count": 1,
+        "name": "Microsoft (Canada)",
+        "lat": 43.61309814453125,
+        "lon": -79.75391387939453,
+        "id": "https://openalex.org/I4210153468"
+      },
+      {
+        "count": 1,
+        "name": "Royal Society of Canada",
+        "lat": 45.42345428466797,
+        "lon": -75.68629455566406,
+        "id": "https://openalex.org/I2802602770"
+      },
+      {
+        "count": 1,
+        "name": "Saskatchewan Health Authority",
+        "lat": 52.12335968017578,
+        "lon": -106.69599151611328,
+        "id": "https://openalex.org/I23625684"
+      },
+      {
+        "count": 1,
+        "name": "Sunny Hill Health Centre for Children",
+        "lat": 49.2519645690918,
+        "lon": -123.04828643798828,
+        "id": "https://openalex.org/I4210136721"
+      },
+      {
+        "count": 1,
+        "name": "Kingston Health Sciences Centre",
+        "lat": 44.229759216308594,
+        "lon": -76.4809799194336,
+        "id": "https://openalex.org/I4210156381"
+      },
+      {
+        "count": 1,
+        "name": "Inro Consultants (Canada)",
+        "lat": 45.48411560058594,
+        "lon": -73.6309814453125,
+        "id": "https://openalex.org/I4210096774"
+      },
+      {
+        "count": 1,
+        "name": "Geomechanica (Canada)",
+        "lat": 43.64986038208008,
+        "lon": -79.38203430175781,
+        "id": "https://openalex.org/I4210155701"
+      },
+      {
+        "count": 1,
+        "name": "Ontario Neurotrauma Foundation",
+        "lat": 43.7076530456543,
+        "lon": -79.39574432373047,
+        "id": "https://openalex.org/I4210088735"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Cardiovascular Society",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I2799343707"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Nutrition Society",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I4210135035"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Thoracic Society",
+        "lat": 45.37144088745117,
+        "lon": -75.74951171875,
+        "id": "https://openalex.org/I4210146070"
+      },
+      {
+        "count": 1,
+        "name": "Yukon Department of Environment",
+        "lat": 60.715938568115234,
+        "lon": -135.0840606689453,
+        "id": "https://openalex.org/I4210157868"
+      },
+      {
+        "count": 1,
+        "name": "Centre Int\u00e9gr\u00e9 de Sant\u00e9 et Services Sociaux de Chaudi\u00e8re-Appalache",
+        "lat": 0,
+        "lon": 0,
+        "id": "https://openalex.org/I4210129659"
+      },
+      {
+        "count": 1,
+        "name": "Quebec - Clinical Research Organization in Cancer",
+        "lat": 46.766361236572266,
+        "lon": -71.29472351074219,
+        "id": "https://openalex.org/I4210158310"
+      },
+      {
+        "count": 1,
+        "name": "IONICS Mass Spectrometry (Canada)",
+        "lat": 43.858543395996094,
+        "lon": -79.71794891357422,
+        "id": "https://openalex.org/I4210113502"
+      },
+      {
+        "count": 1,
+        "name": "Spectra Energy (Canada)",
+        "lat": 49.285308837890625,
+        "lon": -123.12174224853516,
+        "id": "https://openalex.org/I4210127228"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Physiotherapy Association",
+        "lat": 45.37644958496094,
+        "lon": -75.70449829101562,
+        "id": "https://openalex.org/I4210157045"
+      },
+      {
+        "count": 1,
+        "name": "Northern Alberta Institute of Technology",
+        "lat": 53.55014,
+        "lon": -113.46871,
+        "id": "https://openalex.org/I199932263"
+      },
+      {
+        "count": 1,
+        "name": "University of Fredericton",
+        "lat": 45.94541,
+        "lon": -66.66558,
+        "id": "https://openalex.org/I3129222093"
+      },
+      {
+        "count": 1,
+        "name": "Canadian Water Network",
+        "lat": 43.466800689697266,
+        "lon": -80.51638793945312,
+        "id": "https://openalex.org/I2800847695"
+      }
+    ]
+  },
+  {
     "name": "JP",
     "country_code": "JP",
     "count": 1253,
@@ -15772,6 +19547,827 @@
         "lat": 39.89571762084961,
         "lon": 116.46057891845703,
         "id": "https://openalex.org/I4210125404"
+      }
+    ]
+  },
+  {
+    "name": null,
+    "country_code": null,
+    "count": 819,
+    "lat": 37.54302855036455,
+    "lon": 1.8628477368250234,
+    "institutions": [
+      {
+        "count": 143,
+        "name": "Istituto Nazionale di Fisica Nucleare, Gruppo Collegato di Udine",
+        "lat": 46.06930160522461,
+        "lon": 13.237150192260742,
+        "id": "https://openalex.org/I4403928244"
+      },
+      {
+        "count": 139,
+        "name": "Institute of Science and Technology",
+        "lat": 27.701690673828125,
+        "lon": 85.32060241699219,
+        "id": "https://openalex.org/I4399598377"
+      },
+      {
+        "count": 71,
+        "name": "Hakai Institute",
+        "lat": 50.01633834838867,
+        "lon": -125.24459075927734,
+        "id": "https://openalex.org/I4387155864"
+      },
+      {
+        "count": 55,
+        "name": "Unity Health Toronto",
+        "lat": 43.70642852783203,
+        "lon": -79.39864349365234,
+        "id": "https://openalex.org/I4399598460"
+      },
+      {
+        "count": 47,
+        "name": "Facility for Rare Isotope Beams",
+        "lat": 42.73698043823242,
+        "lon": -84.48387145996094,
+        "id": "https://openalex.org/I4387153336"
+      },
+      {
+        "count": 24,
+        "name": "State Key Laboratory of Tree Genetics and Breeding",
+        "lat": 39.907501220703125,
+        "lon": 116.39723205566406,
+        "id": "https://openalex.org/I4392021092"
+      },
+      {
+        "count": 19,
+        "name": "Digital Research Alliance of Canada",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I4387154007"
+      },
+      {
+        "count": 18,
+        "name": "Institute of Science Tokyo",
+        "lat": 35.68949890136719,
+        "lon": 139.69171142578125,
+        "id": "https://openalex.org/I4400009020"
+      },
+      {
+        "count": 17,
+        "name": "ACT Government",
+        "lat": -35.2834587097168,
+        "lon": 149.12806701660156,
+        "id": "https://openalex.org/I4387155473"
+      },
+      {
+        "count": 13,
+        "name": "Institute of Geology, China Earthquake Administration",
+        "lat": 39.907501220703125,
+        "lon": 116.39723205566406,
+        "id": "https://openalex.org/I4391768021"
+      },
+      {
+        "count": 10,
+        "name": "Osservatorio di Astrofisica e Scienza dello Spazio",
+        "lat": 44.49380874633789,
+        "lon": 11.338749885559082,
+        "id": "https://openalex.org/I4387152681"
+      },
+      {
+        "count": 10,
+        "name": "Flatiron Institute",
+        "lat": 40.714271545410156,
+        "lon": -74.00596618652344,
+        "id": "https://openalex.org/I4387153999"
+      },
+      {
+        "count": 10,
+        "name": "Lamarr Institute for Machine Learning and Artificial Intelligence",
+        "lat": 50.7753791809082,
+        "lon": 7.197000026702881,
+        "id": "https://openalex.org/I4387154616"
+      },
+      {
+        "count": 10,
+        "name": "Consejo Nacional de Rectores",
+        "lat": 9.933329582214355,
+        "lon": -84.08332824707031,
+        "id": "https://openalex.org/I4387154903"
+      },
+      {
+        "count": 8,
+        "name": "Lethbridge Research and Development Centre",
+        "lat": 49.699989318847656,
+        "lon": -112.81855773925781,
+        "id": "https://openalex.org/I4390039381"
+      },
+      {
+        "count": 8,
+        "name": "Alberta Children's Hospital Research Institute",
+        "lat": 51.05010986328125,
+        "lon": -114.08528900146484,
+        "id": "https://openalex.org/I4389425471"
+      },
+      {
+        "count": 8,
+        "name": "Ottawa Hospital Research Institute",
+        "lat": 45.411170959472656,
+        "lon": -75.6981201171875,
+        "id": "https://openalex.org/I4388482656"
+      },
+      {
+        "count": 7,
+        "name": "L'Institut Agro",
+        "lat": 48.85340881347656,
+        "lon": 2.34879994392395,
+        "id": "https://openalex.org/I4399657933"
+      },
+      {
+        "count": 7,
+        "name": "Meteorological Research Institute",
+        "lat": 36.20000076293945,
+        "lon": 140.10000610351562,
+        "id": "https://openalex.org/I4388446413"
+      },
+      {
+        "count": 7,
+        "name": "State Key Laboratory of Industrial Control Technology",
+        "lat": 30.293649673461914,
+        "lon": 120.16142272949219,
+        "id": "https://openalex.org/I4391767838"
+      },
+      {
+        "count": 7,
+        "name": "Summerland Research and Development Centre",
+        "lat": 49.599769592285156,
+        "lon": -119.66911315917969,
+        "id": "https://openalex.org/I4390039282"
+      },
+      {
+        "count": 6,
+        "name": "State Key Laboratory of Supramolecular Structure and Materials",
+        "lat": 43.880001068115234,
+        "lon": 125.3227767944336,
+        "id": "https://openalex.org/I4391768123"
+      },
+      {
+        "count": 6,
+        "name": "Climate Resource (Australia)",
+        "lat": -37.81399917602539,
+        "lon": 144.96331787109375,
+        "id": "https://openalex.org/I4392738311"
+      },
+      {
+        "count": 6,
+        "name": "Sunnybrook Research Institute",
+        "lat": 43.70642852783203,
+        "lon": -79.39864349365234,
+        "id": "https://openalex.org/I4391768120"
+      },
+      {
+        "count": 6,
+        "name": "National Research and Innovation Agency",
+        "lat": -6.21462,
+        "lon": 106.84513,
+        "id": "https://openalex.org/I4387154144"
+      },
+      {
+        "count": 6,
+        "name": "Evaluation des technologies de sant\u00e9 et des pratiques m\u00e9dicales",
+        "lat": 50.63296890258789,
+        "lon": 3.058579921722412,
+        "id": "https://openalex.org/I4387155751"
+      },
+      {
+        "count": 6,
+        "name": "China National Botanical Garden",
+        "lat": 39.907501220703125,
+        "lon": 116.39723205566406,
+        "id": "https://openalex.org/I4403928345"
+      },
+      {
+        "count": 5,
+        "name": "State Key Laboratory of Digital Medical Engineering",
+        "lat": 32.061668395996094,
+        "lon": 118.77777862548828,
+        "id": "https://openalex.org/I4387154005"
+      },
+      {
+        "count": 4,
+        "name": "Conservation Biology Institute",
+        "lat": 44.564571380615234,
+        "lon": -123.26203918457031,
+        "id": "https://openalex.org/I4387155502"
+      },
+      {
+        "count": 4,
+        "name": "Hartford Financial Services (United States)",
+        "lat": 41.763710021972656,
+        "lon": -72.68508911132812,
+        "id": "https://openalex.org/I4401726811"
+      },
+      {
+        "count": 4,
+        "name": "London Research and Development Centre",
+        "lat": 42.98339080810547,
+        "lon": -81.23303985595703,
+        "id": "https://openalex.org/I4390039269"
+      },
+      {
+        "count": 3,
+        "name": "Bureau of Economic Geology",
+        "lat": 30.26715087890625,
+        "lon": -97.74305725097656,
+        "id": "https://openalex.org/I4403928371"
+      },
+      {
+        "count": 3,
+        "name": "State Key Laboratory of Crystal Materials",
+        "lat": 36.668331146240234,
+        "lon": 116.99722290039062,
+        "id": "https://openalex.org/I4391768157"
+      },
+      {
+        "count": 3,
+        "name": "Agassiz Research and Development Centre",
+        "lat": 49.23297882080078,
+        "lon": -121.76925659179688,
+        "id": "https://openalex.org/I4390039335"
+      },
+      {
+        "count": 3,
+        "name": "University of Hawaii Cancer Center",
+        "lat": 21.30694007873535,
+        "lon": -157.85833740234375,
+        "id": "https://openalex.org/I4390039246"
+      },
+      {
+        "count": 3,
+        "name": "Northern Rocky Mountain Science Center",
+        "lat": 45.679649353027344,
+        "lon": -111.03855895996094,
+        "id": "https://openalex.org/I4392021179"
+      },
+      {
+        "count": 3,
+        "name": "Suqian University",
+        "lat": 33.94916915893555,
+        "lon": 118.29582977294922,
+        "id": "https://openalex.org/I4387155285"
+      },
+      {
+        "count": 3,
+        "name": "Cascadia Seaweed (Canada)",
+        "lat": 48.64963912963867,
+        "lon": -123.40261840820312,
+        "id": "https://openalex.org/I4399657937"
+      },
+      {
+        "count": 3,
+        "name": "Alanya Alaaddin Keykubat \u00dcniversitesi",
+        "lat": 36.54375076293945,
+        "lon": 31.999820709228516,
+        "id": "https://openalex.org/I4387154021"
+      },
+      {
+        "count": 3,
+        "name": "Office Fran\u00e7ais de la Biodiversit\u00e9",
+        "lat": 48.85340881347656,
+        "lon": 2.34879994392395,
+        "id": "https://openalex.org/I4387154456"
+      },
+      {
+        "count": 3,
+        "name": "State Key Laboratory of Synthetical Automation for Process Industries",
+        "lat": 41.79222106933594,
+        "lon": 123.43277740478516,
+        "id": "https://openalex.org/I4391767858"
+      },
+      {
+        "count": 3,
+        "name": "State Key Laboratory of Nuclear Physics and Technology",
+        "lat": 39.907501220703125,
+        "lon": 116.39723205566406,
+        "id": "https://openalex.org/I4391767693"
+      },
+      {
+        "count": 2,
+        "name": "Eastern Institute of Technology, Ningbo",
+        "lat": 29.878189086914062,
+        "lon": 121.54945373535156,
+        "id": "https://openalex.org/I4394709157"
+      },
+      {
+        "count": 2,
+        "name": "Chemours (United States)",
+        "lat": 39.745948791503906,
+        "lon": -75.54659271240234,
+        "id": "https://openalex.org/I4387156210"
+      },
+      {
+        "count": 2,
+        "name": "Leibniz Institute for the Analysis of Biodiversity Change",
+        "lat": 50.734378814697266,
+        "lon": 7.095489978790283,
+        "id": "https://openalex.org/I4387155279"
+      },
+      {
+        "count": 2,
+        "name": "IGRAC",
+        "lat": 52.00667190551758,
+        "lon": 4.355559825897217,
+        "id": "https://openalex.org/I4394709274"
+      },
+      {
+        "count": 2,
+        "name": "North Central Climate Adaptation Science Center",
+        "lat": 40.014991760253906,
+        "lon": -105.27055358886719,
+        "id": "https://openalex.org/I4401200346"
+      },
+      {
+        "count": 2,
+        "name": "Council of the Haida Nation",
+        "lat": 53.0040283203125,
+        "lon": -132.0342559814453,
+        "id": "https://openalex.org/I4401200370"
+      },
+      {
+        "count": 2,
+        "name": "Centre int\u00e9gr\u00e9 universitaire de sant\u00e9 et de services sociaux de l'Est-de-l'\u00cele-de-Montr\u00e9al",
+        "lat": 45.50883865356445,
+        "lon": -73.58780670166016,
+        "id": "https://openalex.org/I4392738143"
+      },
+      {
+        "count": 2,
+        "name": "Benaroya Research Institute",
+        "lat": 47.60620880126953,
+        "lon": -122.33206939697266,
+        "id": "https://openalex.org/I4391012615"
+      },
+      {
+        "count": 2,
+        "name": "Hangzhou City University",
+        "lat": 30.293649673461914,
+        "lon": 120.16142272949219,
+        "id": "https://openalex.org/I4400573310"
+      },
+      {
+        "count": 2,
+        "name": "Sociedade de Hist\u00f3ria Natural",
+        "lat": 38.716670989990234,
+        "lon": -9.133330345153809,
+        "id": "https://openalex.org/I4403386728"
+      },
+      {
+        "count": 2,
+        "name": "RIKEN Center for Quantum Computing",
+        "lat": 35.9080696105957,
+        "lon": 139.6565704345703,
+        "id": "https://openalex.org/I4387156398"
+      },
+      {
+        "count": 2,
+        "name": "Laoshan Laboratory",
+        "lat": 36.06488037109375,
+        "lon": 120.38041687011719,
+        "id": "https://openalex.org/I4401200309"
+      },
+      {
+        "count": 2,
+        "name": "Nan Tien Institute",
+        "lat": -34.42399978637695,
+        "lon": 150.89344787597656,
+        "id": "https://openalex.org/I4403928235"
+      },
+      {
+        "count": 2,
+        "name": "U.S. Geological Survey, Alaska Science Center",
+        "lat": 61.21805953979492,
+        "lon": -149.90028381347656,
+        "id": "https://openalex.org/I4391012618"
+      },
+      {
+        "count": 2,
+        "name": "Forest and Rangeland Ecosystem Science Center",
+        "lat": 44.564571380615234,
+        "lon": -123.26203918457031,
+        "id": "https://openalex.org/I4391768139"
+      },
+      {
+        "count": 2,
+        "name": "Pacific Rim National Park Reserve",
+        "lat": 49.24961853027344,
+        "lon": -125.33615112304688,
+        "id": "https://openalex.org/I4387155774"
+      },
+      {
+        "count": 2,
+        "name": "State Key Laboratory of Continental Dynamics",
+        "lat": 34.258331298828125,
+        "lon": 108.9286117553711,
+        "id": "https://openalex.org/I4391767698"
+      },
+      {
+        "count": 2,
+        "name": "Deleted Institution",
+        "lat": 0,
+        "lon": 0,
+        "id": "https://openalex.org/I4389424196"
+      },
+      {
+        "count": 2,
+        "name": "Laboratoire de Math\u00e9matiques de Versailles",
+        "lat": 48.80359,
+        "lon": 2.13424,
+        "id": "https://openalex.org/I4387152735"
+      },
+      {
+        "count": 2,
+        "name": "National Museum of History of Moldova",
+        "lat": 47.00556182861328,
+        "lon": 28.857500076293945,
+        "id": "https://openalex.org/I4387152238"
+      },
+      {
+        "count": 2,
+        "name": "UMR Espace-Dev",
+        "lat": 43.610931396484375,
+        "lon": 3.876349925994873,
+        "id": "https://openalex.org/I4387154878"
+      },
+      {
+        "count": 1,
+        "name": "Toyota Research Institute",
+        "lat": 37.44187927246094,
+        "lon": -122.14302062988281,
+        "id": "https://openalex.org/I4391768151"
+      },
+      {
+        "count": 1,
+        "name": "Plug Power (United States)",
+        "lat": 42.74702072143555,
+        "lon": -73.7590103149414,
+        "id": "https://openalex.org/I4387154103"
+      },
+      {
+        "count": 1,
+        "name": "Max Planck Institute of Geoanthropology",
+        "lat": 50.92877960205078,
+        "lon": 11.589900016784668,
+        "id": "https://openalex.org/I4387154167"
+      },
+      {
+        "count": 1,
+        "name": "Fundaci\u00f3n Naturaleza El Salvador",
+        "lat": 13.689350128173828,
+        "lon": -89.18717956542969,
+        "id": "https://openalex.org/I4402554137"
+      },
+      {
+        "count": 1,
+        "name": "Royal Botanic Gardens Victoria",
+        "lat": -37.81399917602539,
+        "lon": 144.96331787109375,
+        "id": "https://openalex.org/I4403928213"
+      },
+      {
+        "count": 1,
+        "name": "fRI Research",
+        "lat": 53.400089263916016,
+        "lon": -117.5856704711914,
+        "id": "https://openalex.org/I4387154547"
+      },
+      {
+        "count": 1,
+        "name": "Salim Habib University",
+        "lat": 24.86079978942871,
+        "lon": 67.0103988647461,
+        "id": "https://openalex.org/I4394709125"
+      },
+      {
+        "count": 1,
+        "name": "University Hospitals Dorset NHS Foundation Trust",
+        "lat": 50.720481872558594,
+        "lon": -1.8795000314712524,
+        "id": "https://openalex.org/I4387155041"
+      },
+      {
+        "count": 1,
+        "name": "Istituto di Ricovero e Cura a Carattere Scientifico San Raffaele",
+        "lat": 41.891929626464844,
+        "lon": 12.511329650878906,
+        "id": "https://openalex.org/I4387155925"
+      },
+      {
+        "count": 1,
+        "name": "Government of Yukon",
+        "lat": 60.71611022949219,
+        "lon": -135.0537567138672,
+        "id": "https://openalex.org/I4387154949"
+      },
+      {
+        "count": 1,
+        "name": "Jard\u00edn Bot\u00e1nico de Bogot\u00e1 Jos\u00e9 Celestino Mutis",
+        "lat": 4.609710216522217,
+        "lon": -74.08174896240234,
+        "id": "https://openalex.org/I4387154549"
+      },
+      {
+        "count": 1,
+        "name": "Upper Midwest Water Science Center",
+        "lat": 42.73252868652344,
+        "lon": -84.55552673339844,
+        "id": "https://openalex.org/I4392021169"
+      },
+      {
+        "count": 1,
+        "name": "Laboratoire d'imagerie translationnelle en oncologie",
+        "lat": 48.69572067260742,
+        "lon": 2.187269926071167,
+        "id": "https://openalex.org/I4387153944"
+      },
+      {
+        "count": 1,
+        "name": "Columbia Environmental Research Center",
+        "lat": 38.95170974731445,
+        "lon": -92.33406829833984,
+        "id": "https://openalex.org/I4391767922"
+      },
+      {
+        "count": 1,
+        "name": "Science Analytics and Synthesis",
+        "lat": 39.704708099365234,
+        "lon": -105.08136749267578,
+        "id": "https://openalex.org/I4392021134"
+      },
+      {
+        "count": 1,
+        "name": "Rajagiri College of Social Sciences (Autonomous)",
+        "lat": 10.061400413513184,
+        "lon": 76.32630920410156,
+        "id": "https://openalex.org/I4388891759"
+      },
+      {
+        "count": 1,
+        "name": "Centre int\u00e9gr\u00e9 universitaire de sant\u00e9 et de services sociaux du Nord-de-l\u2019\u00cele-de-Montr\u00e9al",
+        "lat": 45.50883865356445,
+        "lon": -73.58780670166016,
+        "id": "https://openalex.org/I4392738111"
+      },
+      {
+        "count": 1,
+        "name": "Laboratoire des Sciences de l\u2019Information et de la Communication",
+        "lat": 43.703128814697266,
+        "lon": 7.266079902648926,
+        "id": "https://openalex.org/I4400600903"
+      },
+      {
+        "count": 1,
+        "name": "Alaska Division of Geological and Geophysical Surveys",
+        "lat": 64.83778381347656,
+        "lon": -147.7163848876953,
+        "id": "https://openalex.org/I4403928237"
+      },
+      {
+        "count": 1,
+        "name": "Centro Oceanogr\u00e1fico de A Coru\u00f1a",
+        "lat": 43.3713493347168,
+        "lon": -8.395999908447266,
+        "id": "https://openalex.org/I4388891889"
+      },
+      {
+        "count": 1,
+        "name": "Institute for Marine and Antarctic Studies",
+        "lat": -42.889949798583984,
+        "lon": 147.33323669433594,
+        "id": "https://openalex.org/I4394709165"
+      },
+      {
+        "count": 1,
+        "name": "Fort Collins Science Center",
+        "lat": 40.58525848388672,
+        "lon": -105.08441925048828,
+        "id": "https://openalex.org/I4391768179"
+      },
+      {
+        "count": 1,
+        "name": "University of Sialkot",
+        "lat": 32.492679595947266,
+        "lon": 74.53134155273438,
+        "id": "https://openalex.org/I4387154413"
+      },
+      {
+        "count": 1,
+        "name": "First Light Fusion",
+        "lat": 51.75222,
+        "lon": -1.25596,
+        "id": "https://openalex.org/I4387156461"
+      },
+      {
+        "count": 1,
+        "name": "Great Lakes Institute for Environmental Research",
+        "lat": 42.300079345703125,
+        "lon": -83.01654052734375,
+        "id": "https://openalex.org/I4403386586"
+      },
+      {
+        "count": 1,
+        "name": "GE Vernova (United States)",
+        "lat": 42.375099182128906,
+        "lon": -71.1056137084961,
+        "id": "https://openalex.org/I4401726784"
+      },
+      {
+        "count": 1,
+        "name": "NOAA National Marine Fisheries Service West Coast Region",
+        "lat": 47.60620880126953,
+        "lon": -122.33206939697266,
+        "id": "https://openalex.org/I4387930292"
+      },
+      {
+        "count": 1,
+        "name": "New York State Psychiatric Institute",
+        "lat": 40.78342819213867,
+        "lon": -73.96624755859375,
+        "id": "https://openalex.org/I4388891851"
+      },
+      {
+        "count": 1,
+        "name": "Climate Service Center",
+        "lat": 53.55073165893555,
+        "lon": 9.993020057678223,
+        "id": "https://openalex.org/I4387152772"
+      },
+      {
+        "count": 1,
+        "name": "Rheinland-Pf\u00e4lzische Technische Universit\u00e4t Kaiserslautern-Landau",
+        "lat": 49.19844,
+        "lon": 8.11692,
+        "id": "https://openalex.org/I4387152675"
+      },
+      {
+        "count": 1,
+        "name": "Escola de Administra\u00e7\u00e3o de Empresas de S\u00e3o Paulo",
+        "lat": -23.5475,
+        "lon": -46.63611,
+        "id": "https://openalex.org/I4400600936"
+      },
+      {
+        "count": 1,
+        "name": "California Ocean Protection Council",
+        "lat": 38.58156967163086,
+        "lon": -121.49440002441406,
+        "id": "https://openalex.org/I4387154128"
+      },
+      {
+        "count": 1,
+        "name": "Rutgers New Jersey Medical School",
+        "lat": 40.73566,
+        "lon": -74.17237,
+        "id": "https://openalex.org/I4402554120"
+      },
+      {
+        "count": 1,
+        "name": "Applied Research Laboratories, The University of Texas at Austin",
+        "lat": 30.26715087890625,
+        "lon": -97.74305725097656,
+        "id": "https://openalex.org/I4388482719"
+      },
+      {
+        "count": 1,
+        "name": "Politeknik Elektronika Negeri Surabaya",
+        "lat": -7.249169826507568,
+        "lon": 112.7508316040039,
+        "id": "https://openalex.org/I4387153613"
+      },
+      {
+        "count": 1,
+        "name": "Institut Des Substances et Organismes de la Mer",
+        "lat": 47.21725,
+        "lon": -1.55336,
+        "id": "https://openalex.org/I4392021232"
+      },
+      {
+        "count": 1,
+        "name": "Cognition, Sant\u00e9, Soci\u00e9t\u00e9",
+        "lat": 49.26526,
+        "lon": 4.02853,
+        "id": "https://openalex.org/I4400008974"
+      },
+      {
+        "count": 1,
+        "name": "R\u00e9sistance Induite et Bioprotection des Plantes",
+        "lat": 49.26526,
+        "lon": 4.02853,
+        "id": "https://openalex.org/I4400009026"
+      },
+      {
+        "count": 1,
+        "name": "Yellowstone to Yukon Conservation Initiative",
+        "lat": 51.083351135253906,
+        "lon": -115.35205841064453,
+        "id": "https://openalex.org/I4387156295"
+      },
+      {
+        "count": 1,
+        "name": "State Key Laboratory of Microbial Technology",
+        "lat": 36.668331146240234,
+        "lon": 116.99722290039062,
+        "id": "https://openalex.org/I4391767886"
+      },
+      {
+        "count": 1,
+        "name": "Museo de Historia Natural",
+        "lat": -12.043180465698242,
+        "lon": -77.02823638916016,
+        "id": "https://openalex.org/I4387154893"
+      },
+      {
+        "count": 1,
+        "name": "National Agency for Archaeology",
+        "lat": 47.00556182861328,
+        "lon": 28.857500076293945,
+        "id": "https://openalex.org/I4387154594"
+      },
+      {
+        "count": 1,
+        "name": "Centro Oceanogr\u00e1fico de Santander",
+        "lat": 43.4647216796875,
+        "lon": -3.8044400215148926,
+        "id": "https://openalex.org/I4388891892"
+      },
+      {
+        "count": 1,
+        "name": "Instituto Nacional de Energia El\u00e9trica",
+        "lat": -21.764169692993164,
+        "lon": -43.35028076171875,
+        "id": "https://openalex.org/I4391767691"
+      },
+      {
+        "count": 1,
+        "name": "National Nanotechnology Research Center",
+        "lat": 39.91986846923828,
+        "lon": 32.854270935058594,
+        "id": "https://openalex.org/I4387152795"
+      },
+      {
+        "count": 1,
+        "name": "Center for Environmental Economics - Montpellier",
+        "lat": 43.610931396484375,
+        "lon": 3.876349925994873,
+        "id": "https://openalex.org/I4387156380"
+      },
+      {
+        "count": 1,
+        "name": "Digital Repository of Ireland",
+        "lat": 53.33306121826172,
+        "lon": -6.248889923095703,
+        "id": "https://openalex.org/I4387152179"
+      },
+      {
+        "count": 1,
+        "name": "Direcci\u00f3n General Mar\u00edtima",
+        "lat": 4.609710216522217,
+        "lon": -74.08174896240234,
+        "id": "https://openalex.org/I4387152336"
+      },
+      {
+        "count": 1,
+        "name": "Facult\u00e9 de m\u00e9decine de Tunis",
+        "lat": 36.8189697265625,
+        "lon": 10.165789604187012,
+        "id": "https://openalex.org/I4403386600"
+      },
+      {
+        "count": 1,
+        "name": "Southwestern Medical Center",
+        "lat": 34.60868835449219,
+        "lon": -98.39032745361328,
+        "id": "https://openalex.org/I4388891891"
+      },
+      {
+        "count": 1,
+        "name": "Inuvialuit Regional Corporation",
+        "lat": 68.36166,
+        "lon": -133.72817,
+        "id": "https://openalex.org/I4387154337"
+      },
+      {
+        "count": 1,
+        "name": "University of Chinese Academy of Social Sciences",
+        "lat": 39.907501220703125,
+        "lon": 116.39723205566406,
+        "id": "https://openalex.org/I4391012565"
+      },
+      {
+        "count": 1,
+        "name": "Consortium canadien en neurod\u00e9g\u00e9n\u00e9rescence associ\u00e9e au vieillissement",
+        "lat": 43.70642852783203,
+        "lon": -79.39864349365234,
+        "id": "https://openalex.org/I4391767843"
       }
     ]
   },
@@ -26991,17 +31587,10 @@
   {
     "name": "ID",
     "country_code": "ID",
-    "count": 42,
-    "lat": -6.666132441502526,
-    "lon": 110.54861168009438,
+    "count": 38,
+    "lat": -6.713660066923843,
+    "lon": 110.93845185694643,
     "institutions": [
-      {
-        "count": 4,
-        "name": "National Research and Innovation Agency",
-        "lat": -6.21462,
-        "lon": 106.84513,
-        "id": "https://openalex.org/I4387154144"
-      },
       {
         "count": 4,
         "name": "Universitas Gadjah Mada",

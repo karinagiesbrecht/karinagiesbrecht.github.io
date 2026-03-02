@@ -72,20 +72,22 @@ def fetch_uvic_collaborations():
                     for inst in institutions:
                         # Check if institution is outside Canada
                         country_code = inst.get("country_code")
-                        if country_code and country_code != CANADA_CODE:
-                            inst_id = inst.get("id")
-                            if inst_id:
-                                if inst_id not in institution_cache:
-                                    institution_cache[inst_id] = {
-                                        "name": inst.get("display_name", "Unknown Institution"),
-                                        "country_code": country_code,
-                                        "lat": None,
-                                        "lon": None
-                                    }
-                                
-                                collaborations[inst_id]["count"] += 1
-                                collaborations[inst_id]["name"] = institution_cache[inst_id]["name"]
-                                collaborations[inst_id]["id"] = inst_id # Save the OpenAlex URL format ID
+                        # The original code had: `if country_code and country_code != CANADA_CODE:`
+                        # This was removed to include domestic institutions as well.
+                        
+                        inst_id = inst.get("id")
+                        if inst_id:
+                            if inst_id not in institution_cache:
+                                institution_cache[inst_id] = {
+                                    "name": inst.get("display_name", "Unknown Institution"),
+                                    "country_code": country_code,
+                                    "lat": None,
+                                    "lon": None
+                                }
+                            
+                            collaborations[inst_id]["count"] += 1
+                            collaborations[inst_id]["name"] = institution_cache[inst_id]["name"]
+                            collaborations[inst_id]["id"] = inst_id # Save the OpenAlex URL format ID
                                 
             cursor = data.get("meta", {}).get("next_cursor")
             if not cursor:

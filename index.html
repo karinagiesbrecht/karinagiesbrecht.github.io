@@ -29,28 +29,44 @@
 
     <div id="map-container"></div>
 
-    <!-- Country Details Modal -->
+    <!-- Universal Details Modal -->
     <div id="modal-overlay" class="hidden">
         <div id="modal-content">
             <div class="modal-header">
-                <h2 id="modal-title" style="margin: 0; padding: 0;">Country Name</h2>
+                <h2 id="modal-title" style="margin: 0; padding: 0;">Title</h2>
                 <button id="modal-close">&times;</button>
             </div>
-            <p id="modal-subtitle" style="font-size: 13px; color: var(--text-muted); margin-top: 5px;"></p>
-            <div id="modal-actions" style="margin-bottom: 15px;"></div>
-            <div id="modal-list-container">
-                <table id="modal-table">
-                    <thead>
-                        <tr>
-                            <th>Institution</th>
-                            <th style="text-align: right;">Collaborations</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody id="modal-tbody">
-                        <!-- rows prepopulated by js -->
-                    </tbody>
-                </table>
+
+            <div id="modal-body-overview">
+                <p id="modal-subtitle" style="font-size: 14px; color: var(--text-muted); margin-top: 5px;"></p>
+                <div id="modal-stats" style="margin: 15px 0; font-size: 14px; line-height: 1.5;"></div>
+
+                <div id="modal-actions" style="display: flex; gap: 10px; margin-top: 20px;">
+                    <!-- Buttons injected via JS based on context -->
+                </div>
+            </div>
+
+            <div id="modal-body-list" class="hidden">
+                <div
+                    style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; margin-top: 10px;">
+                    <h3 style="margin: 0; font-size: 15px;">All Institutions</h3>
+                    <button id="modal-back-btn" class="modal-btn secondary tooltip-action-btn" style="margin: 0;">&larr;
+                        Back</button>
+                </div>
+                <div id="modal-list-container">
+                    <table id="modal-table">
+                        <thead>
+                            <tr>
+                                <th>Institution</th>
+                                <th style="text-align: right;">Count</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="modal-tbody">
+                            <!-- rows prepopulated by js -->
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
