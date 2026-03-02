@@ -252,6 +252,22 @@ window.addEventListener('resize', () => {
     location.reload();
 });
 
+// Toggle Views
+d3.select("#btn-map-view").on("click", () => {
+    d3.select("#map-container").classed("hidden", false);
+    d3.select("#country-table-view").classed("hidden", true);
+    d3.select("#btn-map-view").classed("secondary", false);
+    d3.select("#btn-table-view").classed("secondary", true);
+});
+
+d3.select("#btn-table-view").on("click", () => {
+    d3.select("#map-container").classed("hidden", true);
+    d3.select("#country-table-view").classed("hidden", false);
+    d3.select("#btn-map-view").classed("secondary", true);
+    d3.select("#btn-table-view").classed("secondary", false);
+    populateFullCountryTable();
+});
+
 // Modal View Switchers
 d3.select("#modal-back-btn").on("click", () => {
     d3.select("#modal-body-list").classed("hidden", true);
@@ -343,4 +359,39 @@ window.openInstModal = function (d) {
     }
 
     modalOverlay.classed("hidden", false);
+};
+
+// Full Country Table Populator
+function populateFullCountryTable() {
+    const tbody = d3.select("#full-country-tbody");
+    tbody.selectAll("tr").remove();
+
+    if (!globalCollaborations) return;
+
+    const sorted = [...globalCollaborations].sort((a, b) => b.count - a.count);
+
+    const rows = tbody.selectAll("tr")
+        .data(sorted)
+        .enter()
+        .append("tr")
+        .style("transition", "background 0.2s")
+        .on("mouseenter", function () { d3.select(this).style("background", "rgba(0, 115, 188, 0.05)"); })
+        .on("mouseleave", function () { d3.select(this).style("background", "transparent"); });
+
+    const tdStyle = { "padding": "10px 12px", "border-bottom": "1px solid rgba(0, 39, 84, 0.05)" };
+
+    rows.append("td").styles(tdStyle).text(d => getCountryName(d.country_code));
+    rows.append("td").styles(tdStyle).style("text-align", "right").text(d => d.institutions.length);
+    rows.append("td").styles(tdStyle).style("text-align", "right").text(d => Math.round(d.count));
+
+    rows.append("td").styles(tdStyle).style("text-align", "right").html(d => {
+        return `<button class="row-action-btn" onclick="viewCountryFromTable('${d.country_code}')">View Institutions</button>`;
+    });
+}
+
+window.viewCountryFromTable = function (countryCode) {
+    const countryData = globalCollaborations.find(c => c.country_code === countryCode);
+    if (countryData) {
+        openCountryModal(countryData);
+    }
 };
