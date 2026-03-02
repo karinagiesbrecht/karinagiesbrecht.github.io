@@ -1,0 +1,321 @@
+:root {
+    --bg-color: #0b0c10;
+    --land-color: #1f2833;
+    --border-color: #45a29e;
+    --uvic-color: #ffb800;
+    /* UVic Gold/Yellow flair */
+    --collab-color: #66fcf1;
+    /* Neon cyan for connections */
+    --text-main: #ffffff;
+    --text-muted: #c5c6c7;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color);
+    font-family: 'Inter', sans-serif;
+    color: var(--text-main);
+    overflow: hidden;
+}
+
+#ui-container {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: 10;
+    pointer-events: none;
+    background: rgba(11, 12, 16, 0.7);
+    padding: 20px 30px;
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(102, 252, 241, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+h2 {
+    margin: 0 0 20px 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--text-muted);
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 13px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot.uvic {
+    background-color: var(--uvic-color);
+    box-shadow: 0 0 8px var(--uvic-color);
+}
+
+.dot.collab {
+    background-color: var(--collab-color);
+    box-shadow: 0 0 8px var(--collab-color);
+}
+
+#back-btn {
+    margin-top: 15px;
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px solid rgba(197, 198, 199, 0.3);
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    pointer-events: auto;
+}
+
+#back-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+#back-btn.hidden {
+    display: none;
+}
+
+#tooltip {
+    position: absolute;
+    margin-top: 30px;
+    /* Offset to prevent blocking cursor */
+    background: rgba(31, 40, 51, 0.95);
+    border: 1px solid var(--border-color);
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    pointer-events: auto;
+    /* make tooltip interactive */
+    transition: opacity 0.2s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    transform: translateY(20px);
+}
+
+#tooltip.hidden {
+    opacity: 0;
+    pointer-events: none;
+    /* disable when hidden */
+}
+
+#tooltip strong {
+    color: var(--collab-color);
+    font-size: 14px;
+}
+
+.tooltip-action-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: var(--collab-color);
+    color: var(--bg-color);
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.tooltip-action-btn:hover {
+    background: #fff;
+    box-shadow: 0 0 10px var(--collab-color);
+}
+
+.tooltip-action-btn.secondary {
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px solid var(--text-muted);
+}
+
+.tooltip-action-btn.secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    box-shadow: none;
+}
+
+#map-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SVG Styles */
+.land {
+    fill: var(--land-color);
+    stroke: rgba(255, 255, 255, 0.05);
+    stroke-width: 0.5px;
+}
+
+.graticule {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.05);
+    stroke-width: 0.5px;
+}
+
+.arc {
+    fill: none;
+    stroke: var(--collab-color);
+    stroke-linecap: round;
+}
+
+.node {
+    fill: var(--collab-color);
+    opacity: 0.8;
+    cursor: pointer;
+    transition: r 0.2s ease;
+}
+
+.node:hover {
+    fill: #ffffff;
+    opacity: 1;
+}
+
+.uvic-node {
+    fill: var(--uvic-color);
+    filter: drop-shadow(0px 0px 5px var(--uvic-color));
+}
+
+/* Modal Styling */
+#modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 12, 16, 0.85);
+    /* match bg theme */
+    backdrop-filter: blur(5px);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+#modal-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modal-content {
+    background: #1f2833;
+    /* match land theme */
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+    padding: 24px;
+    position: relative;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#modal-close {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+    transition: color 0.2s;
+}
+
+#modal-close:hover {
+    color: #fff;
+}
+
+#modal-list-container {
+    margin-top: 15px;
+    overflow-y: auto;
+    flex-grow: 1;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 10px;
+}
+
+#modal-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+#modal-table th {
+    text-align: left;
+    color: var(--text-muted);
+    font-weight: 600;
+    padding: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: sticky;
+    top: 0;
+    background: #1f2833;
+}
+
+#modal-table td {
+    padding: 10px 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+#modal-table tr:hover td {
+    background: rgba(102, 252, 241, 0.05);
+}
+
+.row-action-btn {
+    background: transparent;
+    border: 1px solid var(--collab-color);
+    color: var(--collab-color);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s;
+}
+
+.row-action-btn:hover {
+    background: var(--collab-color);
+    color: var(--bg-color);
+}

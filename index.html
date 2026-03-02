@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UVic Global Collaborations</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="ui-container">
+        <h1>University of Victoria</h1>
+        <h2>Global Collaborations (2024-2025)</h2>
+        <div class="legend">
+            <span class="legend-item"><span class="dot uvic"></span> Victoria, BC</span>
+            <span class="legend-item"><span class="dot collab"></span> Collaborator</span>
+        </div>
+        <button id="back-btn" class="hidden">← Back to World View</button>
+        <div id="tooltip" class="hidden">
+            <strong id="tt-name"></strong><br>
+            <span id="tt-count" style="color: var(--text-main); font-weight: bold;"></span> <span span
+                style="color: var(--text-muted); font-size: 11px;">collaborations</span>
+            <div id="tt-details" style="margin-top: 8px; font-size: 11px; color: var(--text-muted);"></div>
+        </div>
+    </div>
+
+    <div id="map-container"></div>
+
+    <!-- Country Details Modal -->
+    <div id="modal-overlay" class="hidden">
+        <div id="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title" style="margin: 0; padding: 0;">Country Name</h2>
+                <button id="modal-close">&times;</button>
+            </div>
+            <p id="modal-subtitle" style="font-size: 13px; color: var(--text-muted); margin-top: 5px;"></p>
+            <div id="modal-actions" style="margin-bottom: 15px;"></div>
+            <div id="modal-list-container">
+                <table id="modal-table">
+                    <thead>
+                        <tr>
+                            <th>Institution</th>
+                            <th style="text-align: right;">Collaborations</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="modal-tbody">
+                        <!-- rows prepopulated by js -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- D3 and TopoJSON -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
