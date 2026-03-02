@@ -13,7 +13,12 @@
 <body>
     <div id="ui-container">
         <h1>University of Victoria</h1>
-        <h2>Global Collaborations (2024-2025)</h2>
+        <h2 style="display: flex; align-items: center; gap: 8px;">
+            Global Collaborations (2024-2025)
+            <button id="btn-info" class="modal-btn secondary tooltip-action-btn"
+                style="padding: 0px 6px; font-size: 12px; border-radius: 50%; border: 1px solid var(--text-muted); color: var(--text-muted); cursor: pointer; pointer-events: auto;"
+                title="About this data">i</button>
+        </h2>
 
         <div id="view-toggles" style="display: flex; gap: 10px; margin-bottom: 20px; pointer-events: auto;">
             <button id="btn-map-view" class="modal-btn" style="padding: 6px 14px; font-size: 12px;">Map View</button>
@@ -39,33 +44,69 @@
     <!-- Table View Overlay -->
     <div id="country-table-view" class="hidden">
         <div class="table-container-inner"
-            style="margin: 90px 40px 40px 40px; background: var(--modal-bg); padding: 30px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 39, 84, 0.1); border: 1px solid rgba(0, 115, 188, 0.2); height: calc(100vh - 150px); display: flex; flex-direction: column; overflow: hidden; pointer-events: auto;">
-            <h2
-                style="color: var(--text-main); font-size: 20px; font-weight: 600; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 15px;">
-                All Global Collaborations</h2>
+            style="margin: 220px 40px 40px 40px; background: var(--modal-bg); padding: 30px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 39, 84, 0.1); border: 1px solid rgba(0, 115, 188, 0.2); height: calc(100vh - 260px); display: flex; flex-direction: column; overflow: hidden; pointer-events: auto;">
 
-            <div style="overflow-y: auto; flex-grow: 1;">
-                <table id="full-country-table" style="width: 100%; border-collapse: collapse; font-size: 14px;">
-                    <thead>
-                        <tr>
-                            <th
-                                style="text-align: left; padding: 12px; border-bottom: 2px solid var(--border-color); color: var(--btn-primary); position: sticky; top: 0; background: var(--modal-bg);">
-                                Country</th>
-                            <th
-                                style="text-align: right; padding: 12px; border-bottom: 2px solid var(--border-color); color: var(--btn-primary); position: sticky; top: 0; background: var(--modal-bg);">
-                                Institutions</th>
-                            <th
-                                style="text-align: right; padding: 12px; border-bottom: 2px solid var(--border-color); color: var(--btn-primary); position: sticky; top: 0; background: var(--modal-bg);">
-                                Publications</th>
-                            <th
-                                style="text-align: right; padding: 12px; border-bottom: 2px solid var(--border-color); position: sticky; top: 0; background: var(--modal-bg);">
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody id="full-country-tbody">
-                        <!-- Populated by JS -->
-                    </tbody>
-                </table>
+            <div id="global-table-section"
+                style="display: flex; flex-direction: column; flex-grow: 1; overflow: hidden;">
+                <h2
+                    style="color: var(--text-main); font-size: 20px; font-weight: 600; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 15px;">
+                    All Global Collaborations</h2>
+
+                <div style="overflow-y: auto; flex-grow: 1;">
+                    <table id="full-country-table" style="width: 100%; border-collapse: collapse; font-size: 14px;">
+                        <thead>
+                            <tr>
+                                <th
+                                    style="text-align: left; padding: 12px; border-bottom: 2px solid var(--border-color); color: var(--btn-primary); position: sticky; top: 0; background: var(--modal-bg);">
+                                    Country</th>
+                                <th
+                                    style="text-align: right; padding: 12px; border-bottom: 2px solid var(--border-color); color: var(--btn-primary); position: sticky; top: 0; background: var(--modal-bg);">
+                                    Institutions</th>
+                                <th
+                                    style="text-align: right; padding: 12px; border-bottom: 2px solid var(--border-color); color: var(--btn-primary); position: sticky; top: 0; background: var(--modal-bg);">
+                                    Publications</th>
+                                <th
+                                    style="text-align: right; padding: 12px; border-bottom: 2px solid var(--border-color); position: sticky; top: 0; background: var(--modal-bg);">
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="full-country-tbody">
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="country-inst-table-section" class="hidden"
+                style="display: flex; flex-direction: column; flex-grow: 1; overflow: hidden;">
+                <div
+                    style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 15px;">
+                    <h2 id="country-inst-table-title"
+                        style="color: var(--text-main); font-size: 20px; font-weight: 600; margin: 0;">Country
+                        Institutions</h2>
+                    <button id="btn-back-to-global-table" class="modal-btn secondary"
+                        style="padding: 6px 14px; font-size: 12px;">&larr; Back to All Countries</button>
+                </div>
+                <div style="overflow-y: auto; flex-grow: 1;">
+                    <table id="country-inst-table" style="width: 100%; border-collapse: collapse; font-size: 14px;">
+                        <thead>
+                            <tr>
+                                <th
+                                    style="text-align: left; padding: 12px; border-bottom: 2px solid var(--border-color); color: var(--btn-primary); position: sticky; top: 0; background: var(--modal-bg);">
+                                    Institution</th>
+                                <th
+                                    style="text-align: right; padding: 12px; border-bottom: 2px solid var(--border-color); color: var(--btn-primary); position: sticky; top: 0; background: var(--modal-bg);">
+                                    Publications</th>
+                                <th
+                                    style="text-align: right; padding: 12px; border-bottom: 2px solid var(--border-color); position: sticky; top: 0; background: var(--modal-bg);">
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="country-inst-tbody">
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
@@ -109,6 +150,29 @@
                     </table>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- Info Details Modal -->
+    <div id="info-modal-overlay" class="hidden"
+        style="position: fixed; inset: 0; background: rgba(0, 39, 84, 0.4); backdrop-filter: blur(4px); z-index: 1000; display: flex; align-items: center; justify-content: center; pointer-events: auto;">
+        <div
+            style="background: var(--modal-bg); width: 400px; max-width: 90%; border-radius: 12px; padding: 25px; box-shadow: 0 15px 40px rgba(0,39,84,0.2);">
+            <div
+                style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 15px; margin-bottom: 15px;">
+                <h2 style="margin: 0; color: var(--text-main); font-size: 18px;">About This Map</h2>
+                <button id="info-modal-close"
+                    style="background: none; border: none; font-size: 24px; cursor: pointer; color: var(--text-muted);">&times;</button>
+            </div>
+            <p style="font-size: 14px; line-height: 1.5; color: var(--text-main);">
+                This global collaboration map displays co-authorships between the <strong>University of
+                    Victoria</strong> and international/domestic institutions for the years 2024-2025.
+            </p>
+            <p style="font-size: 14px; line-height: 1.5; color: var(--text-main);">
+                <strong>Data Source:</strong> <a href="https://openalex.org/" target="_blank"
+                    style="color: var(--btn-primary); text-decoration: none;">OpenAlex API</a><br>
+                <strong>Last Updated:</strong> <span id="info-last-updated">Recently</span>
+            </p>
         </div>
     </div>
 

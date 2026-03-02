@@ -268,7 +268,43 @@ d3.select("#btn-table-view").on("click", () => {
     d3.select("#back-btn").classed("hidden", true);
     d3.select("#btn-map-view").classed("secondary", true);
     d3.select("#btn-table-view").classed("secondary", false);
+
+    // Reset to global table view
+    d3.select("#global-table-section").classed("hidden", false);
+    d3.select("#country-inst-table-section").classed("hidden", true);
+
     populateFullCountryTable();
+});
+
+// Nested Table Back Button
+d3.select("#btn-back-to-global-table").on("click", () => {
+    d3.select("#country-inst-table-section").classed("hidden", true);
+    d3.select("#global-table-section").classed("hidden", false);
+});
+
+// Info Modal Toggles
+d3.select("#btn-info").on("click", () => {
+    d3.select("#info-modal-overlay").classed("hidden", false);
+
+    // Attempt to fetch last modified date of data
+    fetch('collaborations.json', { method: 'HEAD' })
+        .then(res => {
+            const lastMod = res.headers.get('Last-Modified');
+            if (lastMod) {
+                const date = new Date(lastMod).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+                d3.select("#info-last-updated").text(date);
+            }
+        }).catch(() => { });
+});
+
+d3.select("#info-modal-close").on("click", () => {
+    d3.select("#info-modal-overlay").classed("hidden", true);
+});
+
+d3.select("#info-modal-overlay").on("click", function (event) {
+    if (event.target === this) {
+        d3.select(this).classed("hidden", true);
+    }
 });
 
 // Modal View Switchers
@@ -409,12 +445,44 @@ function populateFullCountryTable() {
 
 window.viewCountryFromTable = function (countryCode) {
     const countryData = globalCollaborations.find(c => c.country_code === countryCode);
-    if (countryData) {
-        // Switch context
-        d3.select("#map-container").classed("hidden", false);
-        d3.select("#country-table-view").classed("hidden", true);
-        d3.select("#btn-map-view").classed("secondary", false);
-        d3.select("#btn-table-view").classed("secondary", true);
-        openCountryModal(countryData);
-    }
+    if (!countryData) return;
+
+    // Switch from Global Table to Country Institutions Table
+    d3.select("#global-table-section").classed("hidden", true);
+    d3.select("#country-inst-table-section").classed("hidden", false);
+
+    d3.select("#country-inst-table-title").text(`${getCountryName(countryCode)} Institutions`);
+
+    const tbody = d3.select("#country-inst-tbody");
+    tbody.selectAll("tr").remove();
+
+    const rows = tbody.selectAll("tr")
+        .data(countryData.institutions)
+        .enter()
+        .append("tr")
+        .style("transition", "background 0.2s")
+        .on("mouseenter", function () { d3.select(this).style("background", "rgba(0, 115, 188, 0.05)"); })
+        .on("mouseleave", function () { d3.select(this).style("background", "transparent"); });
+
+    rows.append("td")
+        .style("padding", "10px 12px")
+        .style("border-bottom", "1px solid rgba(0, 39, 84, 0.05)")
+        .text(d => d.name);
+
+    rows.append("td")
+        .style("padding", "10px 12px")
+        .style("border-bottom", "1px solid rgba(0, 39, 84, 0.05)")
+        .style("text-align", "right")
+        .text(d => Math.round(d.count));
+
+    rows.append("td")
+        .style("padding", "10px 12px")
+        .style("border-bottom", "1px solid rgba(0, 39, 84, 0.05)")
+        .style("text-align", "right")
+        .html(d => {
+            if (!d.id) return "";
+            const alexId = d.id.split('/').pop();
+            const url = `https://openalex.org/works?page=1&filter=authorships.institutions.lineage:${UVIC_OPENALEX_ID},authorships.institutions.lineage:${alexId}`;
+            return `<a class="row-action-btn" href="${url}" target="_blank">View ↗</a>`;
+        });
 };
