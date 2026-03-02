@@ -256,6 +256,7 @@ window.addEventListener('resize', () => {
 d3.select("#btn-map-view").on("click", () => {
     d3.select("#map-container").classed("hidden", false);
     d3.select("#country-table-view").classed("hidden", true);
+    d3.select(".legend").classed("hidden", false);
     d3.select("#btn-map-view").classed("secondary", false);
     d3.select("#btn-table-view").classed("secondary", true);
 });
@@ -263,6 +264,8 @@ d3.select("#btn-map-view").on("click", () => {
 d3.select("#btn-table-view").on("click", () => {
     d3.select("#map-container").classed("hidden", true);
     d3.select("#country-table-view").classed("hidden", false);
+    d3.select(".legend").classed("hidden", true);
+    d3.select("#back-btn").classed("hidden", true);
     d3.select("#btn-map-view").classed("secondary", true);
     d3.select("#btn-table-view").classed("secondary", false);
     populateFullCountryTable();
@@ -378,20 +381,40 @@ function populateFullCountryTable() {
         .on("mouseenter", function () { d3.select(this).style("background", "rgba(0, 115, 188, 0.05)"); })
         .on("mouseleave", function () { d3.select(this).style("background", "transparent"); });
 
-    const tdStyle = { "padding": "10px 12px", "border-bottom": "1px solid rgba(0, 39, 84, 0.05)" };
+    rows.append("td")
+        .style("padding", "10px 12px")
+        .style("border-bottom", "1px solid rgba(0, 39, 84, 0.05)")
+        .text(d => getCountryName(d.country_code));
 
-    rows.append("td").styles(tdStyle).text(d => getCountryName(d.country_code));
-    rows.append("td").styles(tdStyle).style("text-align", "right").text(d => d.institutions.length);
-    rows.append("td").styles(tdStyle).style("text-align", "right").text(d => Math.round(d.count));
+    rows.append("td")
+        .style("padding", "10px 12px")
+        .style("border-bottom", "1px solid rgba(0, 39, 84, 0.05)")
+        .style("text-align", "right")
+        .text(d => d.institutions.length);
 
-    rows.append("td").styles(tdStyle).style("text-align", "right").html(d => {
-        return `<button class="row-action-btn" onclick="viewCountryFromTable('${d.country_code}')">View Institutions</button>`;
-    });
+    rows.append("td")
+        .style("padding", "10px 12px")
+        .style("border-bottom", "1px solid rgba(0, 39, 84, 0.05)")
+        .style("text-align", "right")
+        .text(d => Math.round(d.count));
+
+    rows.append("td")
+        .style("padding", "10px 12px")
+        .style("border-bottom", "1px solid rgba(0, 39, 84, 0.05)")
+        .style("text-align", "right")
+        .html(d => {
+            return `<button class="row-action-btn" onclick="viewCountryFromTable('${d.country_code}')">View Institutions</button>`;
+        });
 }
 
 window.viewCountryFromTable = function (countryCode) {
     const countryData = globalCollaborations.find(c => c.country_code === countryCode);
     if (countryData) {
+        // Switch context
+        d3.select("#map-container").classed("hidden", false);
+        d3.select("#country-table-view").classed("hidden", true);
+        d3.select("#btn-map-view").classed("secondary", false);
+        d3.select("#btn-table-view").classed("secondary", true);
         openCountryModal(countryData);
     }
 };

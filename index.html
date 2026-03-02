@@ -15,7 +15,7 @@
         <h1>University of Victoria</h1>
         <h2>Global Collaborations (2024-2025)</h2>
 
-        <div id="view-toggles" style="display: flex; gap: 10px; margin-bottom: 20px;">
+        <div id="view-toggles" style="display: flex; gap: 10px; margin-bottom: 20px; pointer-events: auto;">
             <button id="btn-map-view" class="modal-btn" style="padding: 6px 14px; font-size: 12px;">Map View</button>
             <button id="btn-table-view" class="modal-btn secondary" style="padding: 6px 14px; font-size: 12px;">Table
                 View</button>
@@ -39,7 +39,7 @@
     <!-- Table View Overlay -->
     <div id="country-table-view" class="hidden">
         <div class="table-container-inner"
-            style="max-width: 900px; margin: 40px auto; background: var(--modal-bg); padding: 30px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 39, 84, 0.1); border: 1px solid rgba(0, 115, 188, 0.2); max-height: 85vh; display: flex; flex-direction: column;">
+            style="margin: 90px 40px 40px 40px; background: var(--modal-bg); padding: 30px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 39, 84, 0.1); border: 1px solid rgba(0, 115, 188, 0.2); height: calc(100vh - 150px); display: flex; flex-direction: column; overflow: hidden; pointer-events: auto;">
             <h2
                 style="color: var(--text-main); font-size: 20px; font-weight: 600; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 15px;">
                 All Global Collaborations</h2>
